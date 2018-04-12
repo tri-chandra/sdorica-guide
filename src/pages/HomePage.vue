@@ -21,6 +21,7 @@
         v-for="item in guideList"
         :key="item.id"
         :value="item"
+        @click="gotoGuide(item)"
       />
     </v-list>
     <v-dialog v-model="showDialog">
@@ -59,6 +60,9 @@ export default {
       }).catch((error) => {
         console.log(error)
       })
+    },
+    gotoGuide(guide) {
+      this.$router.push(`/guide/${guide.id}`)
     }
   }
 }

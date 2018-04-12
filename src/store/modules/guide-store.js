@@ -20,6 +20,11 @@ const store = {
     },
     guides(state) {
       return [...state.guides]
+    },
+    guideById(state) {
+      return (id) => {
+        return state.guides.find((item) => item.id==id)
+      }
     }
   },
 

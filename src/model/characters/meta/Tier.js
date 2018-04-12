@@ -1,0 +1,6 @@
+export const n = 'N'
+export const r = 'R'
+export const sr = 'SR'
+export const ssr = 'SSR'
+export const sp = 'SP'
+export const skin = 'Skill Book'

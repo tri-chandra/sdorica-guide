@@ -1,5 +1,5 @@
 <template>
-  <v-list-tile>
+  <v-list-tile @click.stop="$emit('click')">
     <v-list-tile-content>
       <v-list-tile-title>
         {{value.title}}
