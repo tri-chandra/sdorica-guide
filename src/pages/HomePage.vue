@@ -7,6 +7,11 @@
 
 <script>
 export default {
+  computed: {
+    guideList() {
+
+    }
+  },
   methods: {
     add() {
       this.$store.dispatch('addNewGuide',

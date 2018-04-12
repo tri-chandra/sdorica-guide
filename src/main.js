@@ -10,6 +10,8 @@ import firebaseHelper from '@/firebase'
 import firebaseui from 'firebaseui'
 import 'firebaseui/dist/firebaseui.css'
 
+import store from './store'
+
 Vue.use(Vuetify)
 
 Vue.config.productionTip = false
@@ -18,6 +20,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>',
   data() {
@@ -26,7 +29,17 @@ new Vue({
     }
   },
   computed: {
-    loggedInUser: firebaseHelper.loggedInUser
+    loggedInUser() {
+      const user = firebaseHelper.loggedInUser()
+
+      if (user.userId) {
+        //init guide store
+      } else {
+        // purge guide store
+      }
+
+      return user
+    }
   },
   created() {
     firebaseHelper.init(this)
