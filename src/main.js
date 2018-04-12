@@ -32,13 +32,16 @@ new Vue({
     loggedInUser() {
       const user = firebaseHelper.loggedInUser()
 
-      if (user.userId) {
-        //init guide store
-      } else {
-        // purge guide store
-      }
-
       return user
+    }
+  },
+  watch: {
+    isLoggedIn(val) {
+      if (val) {
+        this.$store.dispatch('initGuideStore')
+      } else {
+        this.$store.commit('clearGuide')
+      }
     }
   },
   created() {

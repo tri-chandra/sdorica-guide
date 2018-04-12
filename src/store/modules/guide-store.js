@@ -28,6 +28,12 @@ const store = {
       if (value) {
         state.guides.push(value)
       }
+    },
+    clearGuide(state) {
+      state.guides = []
+    },
+    setGuide(state, value) {
+      state.guides = value
     }
   },
 
@@ -47,6 +53,19 @@ const store = {
       }
       getters.collection.add(payload).then((docRef) => {
         commit('addNewGuide', payload)
+      })
+    },
+    initGuideStore({ getters, commit }) {
+      commit('clearGuide')
+      getters.collection.where(
+        'ownerId', '==', firebaseHelper.loggedInUser().userId
+      ).get().then((response) => {
+        response.forEach(doc => {
+          commit('addNewGuide', {
+            id: doc.id,
+            ...doc.data()
+          })
+        });
       })
     }
   }

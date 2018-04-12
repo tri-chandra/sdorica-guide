@@ -19,7 +19,9 @@ const store = new Vuex.Store({
   },
 
   actions: {
-
+    init({ commit }) {
+      commit('initGuideStore')
+    }
   },
 
   modules: {
