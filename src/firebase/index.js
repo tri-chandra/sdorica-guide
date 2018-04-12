@@ -1,9 +1,14 @@
 import firebase from 'firebase'
 import { config } from '@/config/FirebaseConfig'
 
+let db = {}
+
 export default {
   init(self) {
     firebase.initializeApp(config)
+
+    db = firebase.firestore()
+
     firebase.auth().onAuthStateChanged((user) => {
       if(user) {
         // self.$router.push('/success')
@@ -46,5 +51,8 @@ export default {
   },
   logout() {
     firebase.auth().signOut();
+  },
+  db() {
+    return db
   }
 }
