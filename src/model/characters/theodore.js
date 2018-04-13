@@ -1,5 +1,5 @@
 import { r, sr, ssr, skin } from '@/model/characters/meta/Tier'
-import Theodore from './base/Theodore';
+import Theodore from './base/Theodore'
 
 export const theodore_r = new Theodore({
   tier: r,

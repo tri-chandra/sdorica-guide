@@ -1,5 +1,5 @@
 import { n, r, sr, ssr } from '@/model/characters/meta/Tier'
-import Koll from './base/Koll';
+import Koll from './base/Koll'
 
 export const koll_n = new Koll({
   tier: n,

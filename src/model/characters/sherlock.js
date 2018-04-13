@@ -1,5 +1,5 @@
 import { r, sr, ssr } from '@/model/characters/meta/Tier'
-import Sherlock from './base/Sherlock';
+import Sherlock from './base/Sherlock'
 
 export const sherlock_r = new Sherlock({
   tier: TIER_R,

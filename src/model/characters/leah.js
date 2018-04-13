@@ -1,5 +1,5 @@
 import { r, sr, ssr } from '@/model/characters/meta/Tier'
-import Leah from './base/Leah';
+import Leah from './base/Leah'
 
 export const leah_r= new Leah({
   tier: r,

@@ -1,6 +1,5 @@
 import { r, sr, ssr } from '@/model/characters/meta/Tier'
-import Nolva from './base/Nolva';
-import { SIGUSR1 } from 'constants';
+import Nolva from './base/Nolva'
 
 export const nolva_r = new Nolva({
   tier: r,

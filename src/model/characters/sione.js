@@ -1,6 +1,6 @@
 import { r, sr, ssr, skin, sp } from '@/model/characters/meta/Tier'
-import Sione from './base/Sione';
-import SioneSP from './base/SioneSP';
+import Sione from './base/Sione'
+import SioneSP from './base/SioneSP'
 
 export const sione_r = new Sione({
   tier: r,

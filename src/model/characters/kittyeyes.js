@@ -1,5 +1,5 @@
 import { n, r, sr, ssr } from '@/model/characters/meta/Tier'
-import Kittyeyes from './base/Kittyeyes';
+import Kittyeyes from './base/Kittyeyes'
 
 export const kittyeyes_n = new Kittyeyes({
   tier: n,

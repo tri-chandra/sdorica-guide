@@ -1,5 +1,5 @@
 import { r, sr, ssr } from '@/model/characters/meta/Tier'
-import Fredrica from './base/Fredrica';
+import Fredrica from './base/Fredrica'
 
 export const fredrica_r = new Fredrica({
   tier: r,

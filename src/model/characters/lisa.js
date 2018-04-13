@@ -1,5 +1,5 @@
 import { r, sr, ssr } from '@/model/characters/meta/Tier'
-import Lisa from './base/Lisa';
+import Lisa from './base/Lisa'
 
 export const lisa_r = new Lisa({
   tier: r,

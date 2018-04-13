@@ -1,5 +1,5 @@
 import { n, r, sr, ssr } from '@/model/characters/meta/Tier'
-import Roger from './base/Roger';
+import Roger from './base/Roger'
 
 export const roger_n = new Roger({
   tier: n,

@@ -1,5 +1,5 @@
 import { r, sr, ssr, skin } from '@/model/characters/meta/Tier'
-import Jahan from './base/Jahan';
+import Jahan from './base/Jahan'
 
 export const jahan_r = new Jahan({
   tier: r,

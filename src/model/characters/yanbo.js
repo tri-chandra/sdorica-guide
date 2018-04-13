@@ -1,5 +1,5 @@
 import { r, sr, ssr, skin } from '@/model/characters/meta/Tier'
-import Yanbo from './base/Yanbo';
+import Yanbo from './base/Yanbo'
 
 export const yanbo_r = new Yanbo({
   tier: r,

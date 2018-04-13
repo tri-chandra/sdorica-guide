@@ -1,5 +1,5 @@
 import { n, r, sr, ssr } from '@/model/characters/meta/Tier'
-import Pang from './base/Pang';
+import Pang from './base/Pang'
 
 export const pang_n = new Pang({
   tier: n,

@@ -1,6 +1,5 @@
 import { r, sr, ssr } from '@/model/characters/meta/Tier'
-import Sharice from './base/Sharice';
-import { SIGUSR2 } from 'constants';
+import Sharice from './base/Sharice'
 
 export const sharice_r = new Sharice({
   tier: r,

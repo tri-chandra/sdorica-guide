@@ -1,5 +1,5 @@
 import { r, sr, ssr, skin } from '@/model/characters/meta/Tier'
-import Lio from './base/Lio';
+import Lio from './base/Lio'
 
 export const lio_r = new Lio({
   tier: r,

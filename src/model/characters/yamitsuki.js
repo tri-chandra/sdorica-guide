@@ -1,5 +1,5 @@
 import { r, sr, ssr, skin } from '@/model/characters/meta/Tier'
-import Yamitsuki from './base/Yamitsuki';
+import Yamitsuki from './base/Yamitsuki'
 
 export const yamitsuki_r = new Yamitsuki({
   tier: r,

@@ -1,5 +1,5 @@
 import { n, r, sr, ssr } from '@/model/characters/meta/Tier'
-import Karnulla from './base/Karnulla';
+import Karnulla from './base/Karnulla'
 
 export const karnulla_n = new Karnulla({
   tier: n,

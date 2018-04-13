@@ -1,5 +1,5 @@
 import { n, r, sr, ssr, skin } from '@/model/characters/meta/Tier'
-import Ned from './base/Ned';
+import Ned from './base/Ned'
 
 export const ned_n = new Ned({
   tier: n,

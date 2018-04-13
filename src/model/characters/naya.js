@@ -1,5 +1,5 @@
 import { n, r, sr, ssr } from '@/model/characters/meta/Tier'
-import Naya from './base/Naya';
+import Naya from './base/Naya'
 
 export const naya_n = new Naya({
   tier: n,

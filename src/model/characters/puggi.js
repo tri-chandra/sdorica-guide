@@ -1,5 +1,5 @@
 import { n, r, sr, ssr, skin } from '@/model/characters/meta/Tier'
-import Puggi from './base/Puggi';
+import Puggi from './base/Puggi'
 
 export const puggi_n = new Puggi({
   tier: n,

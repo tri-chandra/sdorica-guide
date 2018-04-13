@@ -1,5 +1,5 @@
 import { n, r, sr, ssr } from '@/model/characters/meta/Tier'
-import Tica from './base/Tica';
+import Tica from './base/Tica'
 
 export const tica_n = new Tica({
   tier: n,
