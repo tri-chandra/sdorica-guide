@@ -3,9 +3,10 @@
     <v-layout>
       <v-flex xs4>
         <v-avatar :size="192" tile>
-          <img src="" />
+          <img :src="selectedChar.portrait" />
         </v-avatar>
         <v-select
+          v-model="selectedChar"
           :items="position"
           label="Select a character..."
         >
@@ -23,7 +24,7 @@
       <v-flex xs8>
         <v-form>
           <v-text-field label="Level"></v-text-field>
-          <v-text-field multi-line level="Note"></v-text-field>
+          <v-text-field multi-line label="Note"></v-text-field>
         </v-form>
       </v-flex>
     </v-layout>
@@ -42,7 +43,7 @@ export default {
   components: { CharAvatar },
   data() {
     return {
-
+      selectedChar: {portrait:''}
     }
   },
   methods: {

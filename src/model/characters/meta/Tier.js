@@ -22,3 +22,7 @@ export const skin = {
   code: 'skin',
   display: 'Skill Book'
 }
+export const monster = {
+  code: 'monster',
+  display: '(enemy)'
+}

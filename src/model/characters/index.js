@@ -78,7 +78,7 @@ export const advisor = [
   ...black,
   ...white
 ]
-export const guidAdvisor = [
+export const guildAdvisor = [
   ...gold,
   ...black,
   ...white
@@ -88,5 +88,5 @@ export default {
   black,
   gold,
   advisor,
-  guidAdvisor,
+  guildAdvisor,
 }

@@ -9,8 +9,21 @@
         multi-line
         label="Description"></v-text-field>
     </v-form>
+
+    <char-card
+      :position="goldCharList"
+    />
+    <char-card
+      :position="blackCharList"
+    />
     <char-card
       :position="whiteCharList"
+    />
+    <char-card
+      :position="advisorCharList"
+    />
+    <char-card
+      :position="guildCharList"
     />
 
     <v-navigation-drawer
@@ -46,7 +59,11 @@ export default {
     return {
       localGuide: {},
       showCharDetails: true,
-      whiteCharList: white
+      whiteCharList: white,
+      blackCharList: black,
+      goldCharList: gold,
+      advisorCharList: advisor,
+      guildCharList: guildAdvisor
     }
   },
   computed: {
