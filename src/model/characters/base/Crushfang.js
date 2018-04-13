@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { GOLD } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { gold } from '../meta/Position'
 
 class Crushfang extends BaseCharacter {
   constructor(param) {
-    super('Crushfang', new CharStat(2100, 13863, GOLD), param);
-    this.block = this.stat.block;
+    super('Crushfang', new CharStat(2100, 13863, gold), param)
   }
 }
 
-export default Crushfang;
+export default Crushfang

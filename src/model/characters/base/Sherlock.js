@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { WHITE } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { white } from '../meta/Position'
 
 class Sherlock extends BaseCharacter {
   constructor(param) {
-    super('Sherlock', new CharStat(2729, 10081, WHITE), param);
-    this.block = this.stat.block;
+    super('Sherlock', new CharStat(2729, 10081, white), param)
   }
 }
 
-export default Sherlock;
+export default Sherlock

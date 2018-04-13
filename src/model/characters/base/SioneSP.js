@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { BLACK } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { black } from '../meta/Position'
 
 class SioneSP extends BaseCharacter {
   constructor(param) {
-    super('Sione', new CharStat(2520, 11342, BLACK), param);
-    this.block = this.stat.block;
+    super('Sione', new CharStat(2520, 11342, black), param)
   }
 }
 
-export default SioneSP;
+export default SioneSP

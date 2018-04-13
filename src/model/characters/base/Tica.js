@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { WHITE } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { white } from '../meta/Position'
 
 class Tica extends BaseCharacter {
   constructor(param) {
-    super('Tica', new CharStat(2520, 11342, WHITE), param);
-    this.block = this.stat.block;
+    super('Tica', new CharStat(2520, 11342, white), param)
   }
 }
 
-export default Tica;
+export default Tica

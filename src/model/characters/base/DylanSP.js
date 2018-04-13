@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { BLACK } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { black } from '../meta/Position'
 
 class DylanSP extends BaseCharacter {
   constructor(param) {
-    super('Dylan', new CharStat(2309, 12603, BLACK), param);
-    this.block = this.stat.block;
+    super('Dylan', new CharStat(2309, 12603, black), param)
   }
 }
 
-export default DylanSP;
+export default DylanSP

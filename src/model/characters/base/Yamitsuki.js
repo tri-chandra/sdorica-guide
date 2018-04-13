@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { BLACK } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { black } from '../meta/Position'
 
 class Yamitsuki extends BaseCharacter {
   constructor(param) {
-    super('Yamitsuki', new CharStat(2940, 8822, BLACK), param);
-    this.block = this.stat.block;
+    super('Yamitsuki', new CharStat(2940, 8822, black), param)
   }
 }
 
-export default Yamitsuki;
+export default Yamitsuki

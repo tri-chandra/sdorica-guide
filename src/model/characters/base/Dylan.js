@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { GOLD } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { gold } from '../meta/Position'
 
 class Dylan extends BaseCharacter {
   constructor(param) {
-    super('Dylan', new CharStat(1890, 15124, GOLD), param);
-    this.block = this.stat.block;
+    super('Dylan', new CharStat(1890, 15124, gold), param)
   }
 }
 
-export default Dylan;
+export default Dylan

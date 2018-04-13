@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { WHITE } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { white } from '../meta/Position'
 
 class Fredrica extends BaseCharacter {
   constructor(param) {
-    super('Fredrica', new CharStat(2940, 8822, WHITE), param);
-    this.block = this.stat.block;
+    super('Fredrica', new CharStat(2940, 8822, white), param)
   }
 }
 
-export default Fredrica;
+export default Fredrica

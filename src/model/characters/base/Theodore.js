@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { WHITE } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { white } from '../meta/Position'
 
 class Theodore extends BaseCharacter {
   constructor(param) {
-    super('Theodore', new CharStat(2309, 12603, WHITE), param);
-    this.block = this.stat.block;
+    super('Theodore', new CharStat(2309, 12603, white), param)
   }
 }
 
-export default Theodore;
+export default Theodore

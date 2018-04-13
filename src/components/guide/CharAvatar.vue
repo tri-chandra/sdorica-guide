@@ -2,7 +2,7 @@
 <v-avatar
   :size="size"
   @mouseenter="$emit('mouseenter', '')">
-  <img :src="value.sprite" :alt="value.name" />
+  <img :src="value.portrait" :alt="value.name" />
 </v-avatar>
 </template>
 
@@ -14,7 +14,7 @@ export default {
       type: Object,
       default: {
         name: '',
-        sprite: ''
+        portrait: ''
       }
     },
     size: {

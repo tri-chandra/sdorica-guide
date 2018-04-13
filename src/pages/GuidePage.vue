@@ -24,6 +24,23 @@
     <char-avatar
       :value="{portrait: '/static/avatar/fatima_r.png', name: 'TEST'}"
     />
+
+    <v-navigation-drawer
+      temporary
+      :right="true"
+      v-model="showCharDetails"
+      fixed
+      app
+    >
+      <v-list>
+        <v-list-tile @click="doNothing">
+          <v-list-tile-action>
+            <v-icon>compare_arrows</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-title>Switch drawer (click me)</v-list-tile-title>
+        </v-list-tile>
+      </v-list>
+    </v-navigation-drawer>
   </v-container>
 </template>
 
@@ -40,7 +57,8 @@ export default {
   data() {
     return {
       localGuide: {},
-      angelia: angelia_r
+      angelia: angelia_r,
+      showCharDetails: true
     }
   },
   computed: {
@@ -53,6 +71,11 @@ export default {
   watch: {
     guide(val) {
       this.localGuide = val
+    }
+  },
+  methods: {
+    doNothing() {
+
     }
   },
   mounted() {

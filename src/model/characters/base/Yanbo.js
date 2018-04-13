@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { BLACK } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { black } from '../meta/Position'
 
 class Yanbo extends BaseCharacter {
   constructor(param) {
-    super('Yanbo', new CharStat(2940, 8822, BLACK), param);
-    this.block = this.stat.block;
+    super('Yanbo', new CharStat(2940, 8822, black), param)
   }
 }
 
-export default Yanbo;
+export default Yanbo

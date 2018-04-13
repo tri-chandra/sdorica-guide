@@ -1,12 +1,11 @@
-import BaseCharacter from './core/BaseCharacter';
-import CharStat from './core/CharStat';
-import { GOLD } from '../../constants';
+import BaseCharacter from './BaseCharacter'
+import CharStat from '../meta/CharStat'
+import { gold } from '../meta/Position'
 
 class Sione extends BaseCharacter {
   constructor(param) {
-    super('Sione', new CharStat(2100, 13863, GOLD), param);
-    this.block = this.stat.block;
+    super('Sione', new CharStat(2100, 13863, gold), param)
   }
 }
 
-export default Sione;
+export default Sione
