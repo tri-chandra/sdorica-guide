@@ -86,7 +86,7 @@ export const aosta_skin = new Aosta({
   },
   '1B': {
     name: 'Double-Cross',
-    description: 'Heal all enemies to full HP, grant :STUN',
+    description: 'Heal selected enemy to full HP, grant :STUN',
   },
   '2B': {
     name: 'Fair And Square',
