@@ -1,7 +1,7 @@
 import { n, r, sr, ssr } from '@/model/characters/meta/Tier'
 import Hestia from './base/Hestia';
 
-export const hesia_n = new Hestia({
+export const hestia_n = new Hestia({
   tier: n,
   title: 'Splash Sprite',
   passive: {
@@ -25,7 +25,7 @@ export const hesia_n = new Hestia({
     description: 'Armor Penetration (:crossed_swords: x 2.25) selected enemy.',
   },
 })
-export const hesia_r = new Hestia({
+export const hestia_r = new Hestia({
   tier: r,
   title: 'Aqua La Diva',
   passive: {
@@ -49,7 +49,7 @@ export const hesia_r = new Hestia({
     description: 'Armor Penetration (:crossed_swords: x 2.25) selected enemy.',
   },
 })
-export const hesia_sr = new Hestia({
+export const hestia_sr = new Hestia({
   tier: sr,
   title: 'Riverbank Maiden',
   passive: {
@@ -73,7 +73,7 @@ export const hesia_sr = new Hestia({
     description: 'Armor Penetration (:crossed_swords: x 2.25) selected enemy.',
   },
 })
-export const hesia_ssr = new Hestia({
+export const hestia_ssr = new Hestia({
   tier: ssr,
   title: 'Bride Of The Sea',
   passive: {

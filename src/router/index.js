@@ -19,6 +19,11 @@ export default new Router({
       props: true,
       name: 'GuidePage',
       component: GuidePage
+    },
+    {
+      path: '/sandbox',
+      name: 'Sandbox',
+      component: Sandbox
     }
   ]
 })

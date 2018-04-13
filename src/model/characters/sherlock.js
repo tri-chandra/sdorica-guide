@@ -2,8 +2,7 @@ import { r, sr, ssr } from '@/model/characters/meta/Tier'
 import Sherlock from './base/Sherlock'
 
 export const sherlock_r = new Sherlock({
-  tier: TIER_R,
-  sprite: 'https://i.imgur.com/W66g5NB.png',
+  tier: r,
   title: 'Sly Trader',
   passive: {
     name: 'Transformer Horror',
@@ -27,8 +26,7 @@ export const sherlock_r = new Sherlock({
   },
 })
 export const sherlock_sr = new Sherlock({
-  tier: TIER_SR,
-  sprite: 'https://i.imgur.com/5pHvDDq.png',
+  tier: sr,
   title: 'Mean Moneybags',
   passive: {
     name: 'Transformer Horror',
@@ -52,8 +50,7 @@ export const sherlock_sr = new Sherlock({
   },
 })
 export const sherlock_ssr = new Sherlock({
-  tier: TIER_SSR,
-  sprite: 'https://i.imgur.com/1eDUb5s.png',
+  tier: ssr,
   title: 'Profit Prophet',
   passive: {
     name: 'Transformer Horror',
