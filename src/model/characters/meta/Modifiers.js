@@ -91,3 +91,21 @@ export const taunt = new BaseModifier(
   'Taunt: TBD',
   '/static/ui/armor penetration_icon.png'
 )
+
+export default {
+  damage_reduction,
+  enhance,
+  exhaust,
+  poison,
+  rant_rave,
+  reflect,
+  regen,
+  shock_lock,
+  stun,
+  tank_up,
+  taunt,
+  tear,
+  vigilance,
+  vulnerability,
+  wind_up
+}

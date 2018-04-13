@@ -16,13 +16,32 @@
       :value="{portrait: '/static/avatar/naya_r.png', name: 'TEST'}"
     />
     <char-avatar
-      :value="angelia"
+      :value="{portrait: '/static/avatar/angelia_r.png', name: 'TEST'}"
     />
     <char-avatar
       :value="{portrait: '/static/avatar/lio_r.png', name: 'TEST'}"
     />
     <char-avatar
       :value="{portrait: '/static/avatar/fatima_r.png', name: 'TEST'}"
+    />
+
+    <char-avatar
+      :value="angelia1"
+    />
+    <char-avatar
+      :value="angelia2"
+    />
+    <char-avatar
+      :value="angelia3"
+    />
+    <char-avatar
+      :value="angelia4"
+    />
+    <char-avatar
+      :value="angelia5"
+    />
+    <char-avatar
+      :value="angelia6"
     />
 
     <v-navigation-drawer
@@ -46,7 +65,7 @@
 
 <script>
 import CharAvatar from '@/components/guide/CharAvatar'
-import { angelia_r } from '@/model/characters/angelia'
+import { angelia_n, angelia_r, angelia_sr, angelia_ssr, angelia_sp, angelia_skin } from '@/model/characters/angelia'
 
 export default {
   name: 'GuidePage',
@@ -57,7 +76,12 @@ export default {
   data() {
     return {
       localGuide: {},
-      angelia: angelia_r,
+      angelia1: angelia_n,
+      angelia2: angelia_r,
+      angelia3: angelia_sr,
+      angelia4: angelia_ssr,
+      angelia5: angelia_sp,
+      angelia6: angelia_skin,
       showCharDetails: true
     }
   },

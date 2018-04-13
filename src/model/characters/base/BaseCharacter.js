@@ -10,7 +10,7 @@ class BaseCharacter {
 
     this.displayName = `${this.name} ${tier.display}: ${title}`;
     this.tier = tier;
-    this.portrait = `/static/avatar${code}_${tier.code}.png`;
+    this.portrait = `/static/avatar/${code}_${tier.code}.png`;
     this.passive = passive;
     this.b1 = b1;
     this.b2 = b2;
