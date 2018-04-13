@@ -1,23 +1,25 @@
 import Modifiers from '../meta/Modifiers';
 
 class BaseCharacter {
-  constructor(name, stat, {
-    tier, title, sprite, passive, b1, b2, b4, advisor
+  constructor(code, name, stat, {
+    tier, title, passive, b1, b2, b4, advisor
   }) {
+    this.code = code
     this.name = name;
     this.stat = stat;
 
-    this.displayName = `${this.name} ${tier}: ${title}`;
+    this.displayName = `${this.name} ${tier.display}: ${title}`;
     this.tier = tier;
-    this.sprite = sprite;
+    this.portrait = `/static/avatar${code}_${tier.code}.png`;
     this.passive = passive;
     this.b1 = b1;
     this.b2 = b2;
     this.b4 = b4;
     this.advisor = advisor;
 
-    this.format = this.format;
-    this.getSkillDescription = this.getSkillDescription;
+    // TODO: redo the logic of functions below (format, getSkillDescription, and setCharStatus)
+    // this.format = this.format;
+    // this.getSkillDescription = this.getSkillDescription;
 
     //this.setCharStatus();
   }

@@ -4,7 +4,7 @@ import { gold } from '../meta/Position'
 
 class Karnulla extends BaseCharacter {
   constructor(param) {
-    super('Karnulla', new CharStat(2100, 13863, gold), param)
+    super('karnulla', 'Karnulla', new CharStat(2100, 13863, gold), param)
   }
 }
 

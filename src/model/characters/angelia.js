@@ -3,30 +3,30 @@ import Angelia from './base/Angelia';
 import AngeliaSP from './base/AngeliaSP';
 
 export const angelia_r = new Angelia({
-    tier: r,
-    sprite: 'https://i.imgur.com/sT1bN2g.png',
-    title: 'Shy Sweetheart',
-    passive: {
-      name: 'Helpful Halo',
-      description: 'Upon Tier SR, unlock passive skill',
-    },
-    advisor: {
-      name: 'Angelic Aura',
-      description: 'Grant front row ally (:crossed_swords: x 0.6) Armor (CD: 3)',
-    },
-    b1: {
-      name: 'Wing and Prayer',
-      description: 'Grant front row ally (:crossed_swords: x 0.6) Armor, trigger 1 block skill',
-    },
-    b2: {
-      name: 'Let Us Pray',
-      description: 'Grant all allies (:crossed_swords: x 0.72) Armor',
-    },
-    b4: {
-      name: 'Prayer Player',
-      description: 'Heal (:crossed_swords: x 1.8) front row ally, grant :EXH, trigger 2 block skill',
-    },
-  })
+  tier: r,
+  sprite: 'https://i.imgur.com/sT1bN2g.png',
+  title: 'Shy Sweetheart',
+  passive: {
+    name: 'Helpful Halo',
+    description: 'Upon Tier SR, unlock passive skill',
+  },
+  advisor: {
+    name: 'Angelic Aura',
+    description: 'Grant front row ally (:crossed_swords: x 0.6) Armor (CD: 3)',
+  },
+  b1: {
+    name: 'Wing and Prayer',
+    description: 'Grant front row ally (:crossed_swords: x 0.6) Armor, trigger 1 block skill',
+  },
+  b2: {
+    name: 'Let Us Pray',
+    description: 'Grant all allies (:crossed_swords: x 0.72) Armor',
+  },
+  b4: {
+    name: 'Prayer Player',
+    description: 'Heal (:crossed_swords: x 1.8) front row ally, grant :EXH, trigger 2 block skill',
+  },
+})
 // export default {
 //   angelia_n: new Angelia({
 //     tier: n,

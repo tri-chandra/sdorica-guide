@@ -4,7 +4,7 @@ import { white } from '../meta/Position'
 
 class Theodore extends BaseCharacter {
   constructor(param) {
-    super('Theodore', new CharStat(2309, 12603, white), param)
+    super('theodore', 'Theodore', new CharStat(2309, 12603, white), param)
   }
 }
 

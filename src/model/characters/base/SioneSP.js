@@ -4,7 +4,7 @@ import { black } from '../meta/Position'
 
 class SioneSP extends BaseCharacter {
   constructor(param) {
-    super('Sione', new CharStat(2520, 11342, black), param)
+    super('sione', 'Sione', new CharStat(2520, 11342, black), param)
   }
 }
 

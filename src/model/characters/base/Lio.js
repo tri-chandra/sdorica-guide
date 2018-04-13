@@ -4,7 +4,7 @@ import { white } from '../meta/Position'
 
 class Lio extends BaseCharacter {
   constructor(param) {
-    super('Lio', new CharStat(2520, 11342, white), param)
+    super('lio', 'Lio', new CharStat(2520, 11342, white), param)
   }
 }
 
