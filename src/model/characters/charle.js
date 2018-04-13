@@ -1,4 +1,4 @@
-import { r, sr, ssr, skin } from '@/model/characters/meta/Tier'
+import { r, sr, ssr } from '@/model/characters/meta/Tier'
 import Charle from './base/Charle'
 
 export const charle_r = new Charle({
