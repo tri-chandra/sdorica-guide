@@ -9,20 +9,8 @@
         multi-line
         label="Description"></v-text-field>
     </v-form>
-    <char-avatar
-      :value="{portrait: '/static/avatar/pang_r.png', name: 'TEST'}"
-    />
-    <char-avatar
-      :value="{portrait: '/static/avatar/naya_r.png', name: 'TEST'}"
-    />
-    <char-avatar
-      :value="{portrait: '/static/avatar/angelia_r.png', name: 'TEST'}"
-    />
-    <char-avatar
-      :value="{portrait: '/static/avatar/lio_r.png', name: 'TEST'}"
-    />
-    <char-avatar
-      :value="{portrait: '/static/avatar/fatima_r.png', name: 'TEST'}"
+    <char-card
+      :position="whiteCharList"
     />
 
     <v-navigation-drawer
@@ -45,18 +33,20 @@
 </template>
 
 <script>
-import CharAvatar from '@/components/guide/CharAvatar'
+import { gold, black, white, advisor, guildAdvisor } from '@/model/characters'
+import CharCard from '@/components/guide/CharCard'
 
 export default {
   name: 'GuidePage',
-  components: { CharAvatar },
+  components: { CharCard },
   props: {
     id: String
   },
   data() {
     return {
       localGuide: {},
-      showCharDetails: true
+      showCharDetails: true,
+      whiteCharList: white
     }
   },
   computed: {

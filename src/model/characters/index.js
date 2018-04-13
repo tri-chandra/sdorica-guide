@@ -32,7 +32,7 @@ import { yamitsuki_r, yamitsuki_sr, yamitsuki_ssr, yamitsuki_skin } from './yami
 import { yanbo_r, yanbo_sr, yanbo_ssr, yanbo_skin } from './yanbo'
 
 
-const gold = [
+export const gold = [
   crushfang_r, crushfang_sr, crushfang_ssr, crushfang_skin,
   dylan_n, dylan_r, dylan_sr, dylan_ssr, dylan_skin,
   experiment_r, experiment_sr, experiment_ssr, experiment_skin,
@@ -44,7 +44,7 @@ const gold = [
   roger_n, roger_r, roger_sr, roger_ssr,
   sione_r, sione_sr, sione_ssr, sione_skin
 ]
-const black = [
+export const black = [
   angelia_sp,
   charle_r, charle_sr, charle_ssr,
   dagger_n, dagger_r, dagger_sr, dagger_ssr, dagger_skin,
@@ -59,7 +59,7 @@ const black = [
   yamitsuki_r, yamitsuki_sr, yamitsuki_ssr, yamitsuki_skin,
   yanbo_r, yanbo_sr, yanbo_ssr, yanbo_skin
 ]
-const white = [
+export const white = [
   angelia_n, angelia_r, angelia_sr, angelia_ssr, angelia_skin,
   aosta_r, aosta_sr, aosta_ssr, aosta_skin,
   fredrica_r, fredrica_sr, fredrica_ssr,
@@ -73,12 +73,12 @@ const white = [
   theodore_r, theodore_sr, theodore_ssr, theodore_skin,
   tica_n, tica_r, tica_sr, tica_ssr
 ]
-const advisor = [
+export const advisor = [
   ...gold,
   ...black,
   ...white
 ]
-const guidAdvisor = [
+export const guidAdvisor = [
   ...gold,
   ...black,
   ...white
