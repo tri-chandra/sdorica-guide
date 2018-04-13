@@ -26,6 +26,36 @@
       :position="guildCharList"
     />
 
+    <v-card>
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline mb-0">Stage 1/3</h3>
+          <div>Stage description, thoughts and strategies</div>
+        </div>
+      </v-card-title>
+    </v-card>
+    <v-card>
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline mb-0">Stage 2/3</h3>
+          <div>Stage description, thoughts and strategies</div>
+        </div>
+      </v-card-title>
+    </v-card>
+    <v-card>
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline mb-0">Stage 3/3</h3>
+          <div>Stage description, thoughts and strategies</div>
+        </div>
+      </v-card-title>
+    </v-card>
+
+    <v-text-field
+      v-model="localGuide.closingNote"
+      multi-line
+      label="Closing Note"></v-text-field>
+
     <v-navigation-drawer
       temporary
       :right="true"
