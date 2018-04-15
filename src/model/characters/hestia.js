@@ -12,15 +12,15 @@ export const hestia_n = new Hestia({
     name: 'Magic Melody',
     description: 'Remove all debuffs from selected ally. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Etude Chords',
     description: 'Heal (:crossed_swords: x 1.08) selected ally, grant :REGEN.',
   },
-  '2B': {
+  b2: {
     name: 'Serenade Chords',
     description: 'Heal (:crossed_swords: x 1.26) selected ally',
   },
-  '4B': {
+  b4: {
     name: 'Variation Chords',
     description: 'Armor Penetration (:crossed_swords: x 2.25) selected enemy.',
   },
@@ -36,15 +36,15 @@ export const hestia_r = new Hestia({
     name: 'Magic Melody',
     description: 'Remove all debuffs from selected ally. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Etude Chords',
     description: 'Heal (:crossed_swords: x 1.08) selected ally, grant :REGEN.',
   },
-  '2B': {
+  b2: {
     name: 'Serenade Chords',
     description: 'Heal (:crossed_swords: x 1.26) selected ally, remove debuffs.',
   },
-  '4B': {
+  b4: {
     name: 'Variation Chords',
     description: 'Armor Penetration (:crossed_swords: x 2.25) selected enemy.',
   },
@@ -60,15 +60,15 @@ export const hestia_sr = new Hestia({
     name: 'Magic Melody',
     description: 'Remove all debuffs from selected ally. (CD: 4)',
   },
-  '1B': {
+  b1: {
     name: 'Etude Chords',
     description: 'Heal (:crossed_swords: x 1.08) selected ally, grant :REGEN for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Serenade Chords',
     description: 'Heal (:crossed_swords: x 1.26) selected ally, remove debuffs.',
   },
-  '4B': {
+  b4: {
     name: 'Variation Chords',
     description: 'Armor Penetration (:crossed_swords: x 2.25) selected enemy.',
   },
@@ -84,15 +84,15 @@ export const hestia_ssr = new Hestia({
     name: 'Magic Melody',
     description: 'Remove all debuffs from selected ally. (CD: 3)',
   },
-  '1B': {
+  b1: {
     name: 'Etude Chords',
     description: 'Heal (:crossed_swords: x 1.08) selected ally, grant :REGEN for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Serenade Chords',
     description: 'Heal (:crossed_swords: x 1.26) selected ally, remove debuffs.',
   },
-  '4B': {
+  b4: {
     name: 'Variation Chords',
     description: 'Armor Penetration (:crossed_swords: x 2.25) selected enemy, heal (:crossed_swords: x 0.9) target ',
   },

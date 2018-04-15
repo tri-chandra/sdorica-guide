@@ -7,6 +7,7 @@ const store = {
 
   state: {
     guides: [],
+    selectedGuide: {},
     collection: null
   },
 
@@ -19,12 +20,10 @@ const store = {
       }
     },
     guides(state) {
-      return [...state.guides]
+      return state.guides
     },
-    guideById(state) {
-      return (id) => {
-        return state.guides.find((item) => item.id==id)
-      }
+    selectedGuide(state) {
+      return state.selectedGuide
     }
   },
 
@@ -37,8 +36,8 @@ const store = {
     clearGuide(state) {
       state.guides = []
     },
-    setGuide(state, value) {
-      state.guides = value
+    setSelectedGuide(state, value) {
+      state.selectedGuide = value
     }
   },
 
@@ -70,7 +69,17 @@ const store = {
             id: doc.id,
             ...doc.data()
           })
-        });
+        })
+
+        commit('setStoreReady')
+      })
+    },
+    saveGuide({ getters, commit }, value) {
+      getters.collection.doc(value.id).set(value)
+    },
+    getSelectedGuide({getters, commit}, id) {
+      getters.collection.doc(id).get().then((doc) => {
+        commit('setSelectedGuide', doc.data())
       })
     }
   }

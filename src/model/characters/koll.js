@@ -12,15 +12,15 @@ export const koll_n = new Koll({
     name: 'Aware Wolf',
     description: 'Attack (:crossed_swords: x 2.5) all enemies and (:crossed_swords: x 1) all allies. (CD: 12)',
   },
-  '1B': {
+  b1: {
     name: 'Ready Maim Fire',
     description: 'Armor Penetration (:crossed_swords: x 0.75) front row enemy.',
   },
-  '2B': {
+  b2: {
     name: 'Champ Fire',
     description: 'Heal (:crossed_swords: x 1.35) selected ally.',
   },
-  '4B': {
+  b4: {
     name: 'Misfire Fighter',
     description: 'Attack (:crossed_swords: x 2.5) all enemies and (:crossed_swords: x 1) all allies.',
   },
@@ -36,15 +36,15 @@ export const koll_r = new Koll({
     name: 'Aware Wolf',
     description: 'Attack (:crossed_swords: x 2.5) all enemies and (:crossed_swords: x 1) all allies. (CD: 12)',
   },
-  '1B': {
+  b1: {
     name: 'Ready Maim Fire',
     description: 'Armor Penetration (:crossed_swords: x 0.75) front row enemy, grant :VUL',
   },
-  '2B': {
+  b2: {
     name: 'Champ Fire',
     description: 'Heal (:crossed_swords: x 1.35) selected ally.',
   },
-  '4B': {
+  b4: {
     name: 'Misfire Fighter',
     description: 'Attack (:crossed_swords: x 2.5) all enemies and (:crossed_swords: x 1) all allies.',
   },
@@ -60,15 +60,15 @@ export const koll_sr = new Koll({
     name: 'Aware Wolf',
     description: 'Attack (:crossed_swords: x 2.5) all enemies and (:crossed_swords: x 1) all allies. (CD: 11)',
   },
-  '1B': {
+  b1: {
     name: 'Ready Maim Fire',
     description: 'Armor Penetration (:crossed_swords: x 0.75) front row enemy, grant 2 stacks :VUL.',
   },
-  '2B': {
+  b2: {
     name: 'Champ Fire',
     description: 'Heal (:crossed_swords: x 1.35) selected ally.',
   },
-  '4B': {
+  b4: {
     name: 'Misfire Fighter',
     description: 'Attack (:crossed_swords: x 2.5) all enemies and (:crossed_swords: x 1) all allies.',
   },
@@ -84,15 +84,15 @@ export const koll_ssr = new Koll({
     name: 'Aware Wolf',
     description: 'Attack (:crossed_swords: x 2.5) all enemies and (:crossed_swords: x 1) all allies. (CD: 10)',
   },
-  '1B': {
+  b1: {
     name: 'Ready Maim Fire',
     description: 'Armor Penetration (:crossed_swords: x 0.75) front row enemy, grant 2 stacks :VUL.',
   },
-  '2B': {
+  b2: {
     name: 'Champ Fire',
     description: 'Heal (:crossed_swords: x 1.35) selected ally, grant :DMGRED for 3 turns.',
   },
-  '4B': {
+  b4: {
     name: 'Misfire Fighter',
     description: 'Attack (:crossed_swords: x 2.5) all enemies and (:crossed_swords: x 1) all allies.',
   },

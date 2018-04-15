@@ -12,15 +12,15 @@ export const fatima_n = new Fatima({
     name: 'Leap Of Faith',
     description: 'Upon death of target by ally, grant :ENHANCE',
   },
-  '1B': {
+  b1: {
     name: 'Behead Hunt',
     description: 'Armor Penetration (:crossed_swords: x 0.75) front row enemy',
   },
-  '2B': {
+  b2: {
     name: 'Happy Huntress',
     description: 'Armor Penetration (:crossed_swords: x 1.5) back row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Good Kill Hunting',
     description: 'Attack (:crossed_swords: x 3.6) with lowest HP',
   },
@@ -36,15 +36,15 @@ export const fatima_r = new Fatima({
     name: 'Leap Of Faith',
     description: 'Upon death of target by ally, grant :ENHANCE',
   },
-  '1B': {
+  b1: {
     name: 'Behead Hunt',
     description: 'Armor Penetration (:crossed_swords: x 0.75) front row enemy. If have :ENHANCE, Armor Peneration (:crossed_swords: x 0.75) selected enemy instead',
   },
-  '2B': {
+  b2: {
     name: 'Happy Huntress',
     description: 'Armor Penetration (:crossed_swords: x 1.5) back row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Good Kill Hunting',
     description: 'Attack (:crossed_swords: x 3.6) with lowest HP',
   },
@@ -60,15 +60,15 @@ export const fatima_sr = new Fatima({
     name: 'Leap of Faith',
     description: 'Upon death of target by ally, grant :ENHANCE for 2 turns',
   },
-  '1B': {
+  b1: {
     name: 'Behead Hunt',
     description: 'Armor Penetration (:crossed_swords: x 0.75) front row enemy. If have :ENHANCE, Armor Peneration (:crossed_swords: x 0.75) selected enemy instead',
   },
-  '2B': {
+  b2: {
     name: 'Happy Huntress',
     description: 'Armor Penetration (:crossed_swords: x 1.5) back row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Good Kill Hunting',
     description: 'Attack (:crossed_swords: x 3.6) with lowest HP. If have :ENHANCE, Attack (:crossed_swords: x 3.6) selected enemy instead',
   },
@@ -84,15 +84,15 @@ export const fatima_ssr = new Fatima({
     name: 'Leap Of Faith',
     description: 'Upon death of target by ally, grant :ENHANCE for 3 turns',
   },
-  '1B': {
+  b1: {
     name: 'Behead Hunt',
     description: 'Armor Penetration (:crossed_swords: x 0.75) front row enemy. If have :ENHANCE, Armor Peneration (:crossed_swords: x 0.75) selected enemy instead',
   },
-  '2B': {
+  b2: {
     name: 'Happy Huntress',
     description: 'Armor Penetration (:crossed_swords: x 1.5) back row enemy. If have :ENHANCE, Armor Penetration (:crossed_swords: x 1.5) selected enemy instead',
   },
-  '4B': {
+  b4: {
     name: 'Good Kill Hunting',
     description: 'Attack (:crossed_swords: x 3.6) with lowest HP. If have :ENHANCE, Attack (:crossed_swords: x 3.6) selected enemy instead',
   },
@@ -108,15 +108,15 @@ export const fatima_skin = new Fatima({
     name: 'Hunting Rites',
     description: 'Allies\' True Damage effets increased by 30%',
   },
-  '1B': {
+  b1: {
     name: 'Heart Seeker',
     description: 'True Damage (:crossed_swords: x 0.75) front row enemy. Grant self :TEAR',
   },
-  '2B': {
+  b2: {
     name: 'Sky Splitting Strike',
     description: 'True Damage (:crossed_swords: x 1.75) back row enemy. Grant self :TEAR for 2 turns',
   },
-  '4B': {
+  b4: {
     name: 'Unleash Thunder',
     description: 'True Damage (:crossed_swords: x 2.5) enemy with lowest HP. Grant self :TEAR for 3 turns',
   },

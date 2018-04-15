@@ -12,15 +12,15 @@ export const lisa_r = new Lisa({
     name: 'The Pink Imprint',
     description: 'Grant all allies 3 stacks :ENHANCE for 2 turns (CD: 12)',
   },
-  '1B': {
+  b1: {
     name: 'Dancing With Costars',
     description: 'Grant selected ally (:crossed_swords: x 0.6) Armor and :ENHANCE for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Care To Dance',
     description: 'Heal (:crossed_swords: x 0.54) all allies, grant :ENHANCE.',
   },
-  '4B': {
+  b4: {
     name: 'Dancing Queen',
     description: 'Grant all allies 3 stacks :ENHANCE for 2 turns.',
   },
@@ -36,15 +36,15 @@ export const lisa_sr = new Lisa({
     name: 'The Pink Imprint',
     description: 'Grant all allies 3 stacks :ENHANCE for 2 turns (CD: 11)',
   },
-  '1B': {
+  b1: {
     name: 'Dancing With Costars',
     description: 'Grant selected ally (:crossed_swords: x 0.6) Armor and :ENHANCE for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Care To Dance',
     description: 'Heal (:crossed_swords: x 0.54) all allies, grant :ENHANCE and :VIGIL',
   },
-  '4B': {
+  b4: {
     name: 'Dancing Queen',
     description: 'Grant all allies 3 stacks :ENHANCE for 2 turns.',
   },
@@ -60,15 +60,15 @@ export const lisa_ssr = new Lisa({
     name: 'The Pink Imprint',
     description: 'Grant all allies 3 stacks :ENHANCE for 2 turns (CD: 10)',
   },
-  '1B': {
+  b1: {
     name: 'Dancing With Costars',
     description: 'Grant selected ally (:crossed_swords: x 0.6) Armor and :ENHANCE for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Care To Dance',
     description: 'Heal (:crossed_swords: x 0.54) all allies, grant :ENHANCE and :VIGIL for 2 turns',
   },
-  '4B': {
+  b4: {
     name: 'Dancing Queen',
     description: 'Grant all allies 3 stacks :ENHANCE for 2 turns.',
   },

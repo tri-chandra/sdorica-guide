@@ -12,15 +12,15 @@ export const lio_r = new Lio({
     name: 'Nom Nom Nutrition',
     description: 'Heal (:crossed_swords: x 1.5) selected ally. (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Junk Food',
     description: 'Heal (:crossed_swords: x 0.9) selected ally, grant :EXH for 3 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Food Aid',
     description: 'Heal (:crossed_swords: x 1.35) selected ally.',
   },
-  '4B': {
+  b4: {
     name: 'Food Lay Waste',
     description: 'Armor Penetration (:crossed_swords: x 2.4) back row enemy.',
   },
@@ -36,15 +36,15 @@ export const lio_sr = new Lio({
     name: 'Nom Nom Nutrition',
     description: 'Heal (:crossed_swords: x 1.5) selected ally. (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'Junk Food',
     description: 'Heal (:crossed_swords: x 0.9) selected ally, grant :EXH for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Food Aid',
     description: 'Heal (:crossed_swords: x 1.35) selected ally.',
   },
-  '4B': {
+  b4: {
     name: 'Food Lay Waste',
     description: 'Armor Penetration (:crossed_swords: x 2.4) back row enemy.',
   },
@@ -60,15 +60,15 @@ export const lio_ssr = new Lio({
     name: 'Nom Nom Nutrition',
     description: 'Heal (:crossed_swords: x 1.5) selected ally. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Junk Food',
     description: 'Heal (:crossed_swords: x 0.9) selected ally, grant :EXH.',
   },
-  '2B': {
+  b2: {
     name: 'Food Aid',
     description: 'Heal (:crossed_swords: x 1.35) selected ally.',
   },
-  '4B': {
+  b4: {
     name: 'Food Lay Waste',
     description: 'Armor Penetration (:crossed_swords: x 2.4) back row enemy.',
   },
@@ -84,15 +84,15 @@ export const lio_skin = new Lio({
     name: 'Roll The Dice',
     description: "Allies' Armor Penetration skills have 30% chance to trigger target CD +1.",
   },
-  '1B': {
+  b1: {
     name: 'Toxic Mandora',
     description: 'Grant selected character :POIS.',
   },
-  '2B': {
+  b2: {
     name: 'Carrot Cannon',
     description: 'Armor Penetration (:crossed_swords: x 1.5) back row enemy. 50% chance to trigger target CD +1',
   },
-  '4B': {
+  b4: {
     name: 'Super Mandrake',
     description: 'Armor Penetration (:crossed_swords: x 2.25) selected enemy. 50% chance to trigger target CD +3',
   },

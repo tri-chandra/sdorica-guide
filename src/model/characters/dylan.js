@@ -13,15 +13,15 @@ export const dylan_n = new Dylan({
     name: 'For Justice',
     description: "Allies' grant Armor effects increased by 15%",
   },
-  '1B': {
+  b1: {
     name: 'Shielded Stance',
     description: 'Grant self (:crossed_swords: x 1.2) Armor',
   },
-  '2B': {
+  b2: {
     name: 'Shield Your Eyes',
     description: 'Attack (:crossed_swords: x 2) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Steel Shield Steal',
     description: 'Grant self (:crossed_swords: x 3.6) Armor. Trigger ally 1 block skill',
   },
@@ -37,15 +37,15 @@ export const dylan_r = new Dylan({
     name: 'For Justice',
     description: "Allies' grant Armor effects increased by 20%",
   },
-  '1B': {
+  b1: {
     name: 'Shielded Stance',
     description: 'Grant self (:crossed_swords: x 1.2) Armor and Taunt',
   },
-  '2B': {
+  b2: {
     name: 'Shield Your Eyes',
     description: 'Attack (:crossed_swords: x 2) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Steel Shield Steal',
     description: 'Grant self (:crossed_swords: x 3.6) Armor. Trigger ally 1 block skill',
   },
@@ -61,15 +61,15 @@ export const dylan_sr = new Dylan({
     name: 'For Justice',
     description: "Allies' grant Armor effects increased by 25%",
   },
-  '1B': {
+  b1: {
     name: 'Shielded Stance',
     description: 'Grant self (:crossed_swords: x 1.2) Armor and Taunt',
   },
-  '2B': {
+  b2: {
     name: 'Shield Your Eyes',
     description: 'Attack (:crossed_swords: x 2) front row enemy. If have Armor, deal additional damage, remove self Armor',
   },
-  '4B': {
+  b4: {
     name: 'Steel Shield Steal',
     description: 'Grant self (:crossed_swords: x 3.6) Armor. Trigger ally 1 block skill',
   },
@@ -85,15 +85,15 @@ export const dylan_ssr = new Dylan({
     name: 'For Justice',
     description: "Allies' grant Armor effects increased by 30%",
   },
-  '1B': {
+  b1: {
     name: 'Shielded Stance',
     description: 'Grant self (:crossed_swords: x 1.2) Armor and Taunt',
   },
-  '2B': {
+  b2: {
     name: 'Shield Your Eyes',
     description: 'Attack (:crossed_swords: x 2) front row enemy. If have Armor, deal additional damage, remove self Armor',
   },
-  '4B': {
+  b4: {
     name: 'Steel Shield Steal',
     description: 'Grant self (:crossed_swords: x 3.6) Armor. Trigger all ally 1 block skill',
   },
@@ -109,15 +109,15 @@ export const dylan_sp = new DylanSP({
     name: 'Indestructible Arms',
     description: 'If allies are at Full HP, increase skill power by 30%',
   },
-  '1B': {
+  b1: {
     name: 'Quick Resupply',
     description: 'Heal (:crossed_swords: x 0.45) self, grant selected enemy :TEAR',
   },
-  '2B': {
+  b2: {
     name: 'Burning Bash',
     description: 'Attack (:crossed_swords: x 2) front row enemy. The higher the HP this character has, the higher the damage dealt',
   },
-  '4B': {
+  b4: {
     name: 'Glory To The Sun !',
     description: 'Trigger death of all enemies with lower HP than this character',
   },
@@ -133,15 +133,15 @@ export const dylan_skin = new Dylan({
     name: 'Shield Support',
     description: 'Upon start of each battle, grant front row ally full Armor',
   },
-  '1B': {
+  b1: {
     name: 'Cover Command',
     description: 'Grant self (:crossed_swords: x 1.2) Armor, trigger black character 1 block skill',
   },
-  '2B': {
+  b2: {
     name: 'Aegis Smash',
     description: 'Attack (:crossed_swords: x 2) front row enemy, remove self Armor. Upon cast skill, if Dylan has over 30%/60%/90% of Armor, grant target 1/2/3 stacks of :VUL for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'Charge Assault',
     description: 'Grant self (:crossed_swords: x 2.4) Armor, trigger black character 4 block skill',
   },

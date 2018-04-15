@@ -12,15 +12,15 @@ export const karnulla_n = new Karnulla({
     name: 'Submerge Urge',
     description: "Allies' Armor Penetration effects increase by 15%",
   },
-  '1B': {
+  b1: {
     name: 'Doom Bloom',
     description: 'Grant self 2 stacks :VIGIL. Reset front row enemy CD',
   },
-  '2B': {
+  b2: {
     name: 'Annihilate Bloomer',
     description: 'Armor Penetration (:crossed_swords: x 1.125) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'In Full Bloom',
     description: 'Grant self 3 stacks :VIGIL. Reset all enemies CD',
   },
@@ -36,15 +36,15 @@ export const karnulla_r = new Karnulla({
     name: 'Submerge Urge',
     description: "Allies' Armor Penetration effects increase by 20%",
   },
-  '1B': {
+  b1: {
     name: 'Doom Bloom',
     description: 'Grant self Taunt and 2 stacks :VIGIL. Reset front row enemy CD',
   },
-  '2B': {
+  b2: {
     name: 'Annihilate Bloomer',
     description: 'Armor Penetration (:crossed_swords: x 1.125) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'In Full Bloom',
     description: 'Grant self Taunt and 3 stacks :VIGIL. Reset all enemies CD',
   },
@@ -60,15 +60,15 @@ export const karnulla_sr = new Karnulla({
     name: 'Submerge Urge',
     description: "Allies' Armor Penetration effects increase by 25%",
   },
-  '1B': {
+  b1: {
     name: 'Doom Bloom',
     description: 'Grant self Taunt and 2 stacks :VIGIL. Reset front row enemy CD',
   },
-  '2B': {
+  b2: {
     name: 'Annihilate Bloomer',
     description: 'Armor Penetration (:crossed_swords: x 1.125) front row enemy. Grant self :ENHANCE for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'In Full Bloom',
     description: 'Grant self Taunt and 3 stacks :VIGIL. Reset all enemies CD',
   },
@@ -84,15 +84,15 @@ export const karnulla_ssr = new Karnulla({
     name: 'Submerge Urge',
     description: "Allies' Armor Penetration effects increase by 30%",
   },
-  '1B': {
+  b1: {
     name: 'Doom Bloom',
     description: 'Grant self Taunt and 2 stacks :VIGIL. Reset front row enemy CD',
   },
-  '2B': {
+  b2: {
     name: 'Annihilate Bloomer',
     description: 'Armor Penetration (:crossed_swords: x 1.125) front row enemy. Grant self 2 stacks :ENHANCE for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'In Full Bloom',
     description: 'Grant self Taunt and 3 stacks :VIGIL. Reset all enemies CD',
   },

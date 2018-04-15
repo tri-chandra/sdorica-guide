@@ -33,6 +33,9 @@ new Vue({
       const user = firebaseHelper.loggedInUser()
 
       return user
+    },
+    isReady() {
+      return this.$store.getters.isReady
     }
   },
   watch: {

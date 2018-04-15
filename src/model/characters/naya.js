@@ -12,15 +12,15 @@ export const naya_n = new Naya({
     name: 'Bolt Down',
     description: 'Attack (:crossed_swords: x 0.6) selected enemy, grant :VUL for 2 turns (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Hot Shot',
     description: 'Attack (:crossed_swords: x 0.6) selected enemy, grant :VUL for 2 turns',
   },
-  '2B': {
+  b2: {
     name: 'Blood Shot',
     description: 'Attack (:crossed_swords: x 1.2) selected enemy. 20% chance for a Critical Strike that does 2x Damage',
   },
-  '4B': {
+  b4: {
     name: 'Skyfall Shot',
     description: 'Attack (:crossed_swords: x 2.5) selected enemy',
   },
@@ -36,15 +36,15 @@ export const naya_r = new Naya({
     name: 'Bolt Down',
     description: 'Attack (:crossed_swords: x 0.6) selected enemy, grant :VUL for 2 turns (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Hot Shot',
     description: 'Attack (:crossed_swords: x 0.6) selected enemy, grant :VUL for 2 turns',
   },
-  '2B': {
+  b2: {
     name: 'Blood Shot',
     description: 'Attack (:crossed_swords: x 1.2) selected enemy. 20% chance for a Critical Strike that does 2x Damage',
   },
-  '4B': {
+  b4: {
     name: 'Skyfall Shot',
     description: 'Attack (:crossed_swords: x 2.5) selected enemy. 20% chance for a Critical Strike that does 2x Damage',
   },
@@ -60,15 +60,15 @@ export const naya_sr = new Naya({
     name: 'Bolt Down',
     description: 'Attack (:crossed_swords: x 0.6) selected enemy, grant :VUL for 2 turns (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'Hot Shot',
     description: 'Attack (:crossed_swords: x 0.6) selected enemy, grant :VUL for 2 turns',
   },
-  '2B': {
+  b2: {
     name: 'Blood Shot',
     description: 'Attack (:crossed_swords: x 1.2) selected enemy. 20% chance to trigger self 4 block skill instead',
   },
-  '4B': {
+  b4: {
     name: 'Skyfall Shot',
     description: 'Attack (:crossed_swords: x 2.5) selected enemy. 20% chance for a Critical Strike that does 2x Damage',
   },
@@ -84,15 +84,15 @@ export const naya_ssr = new Naya({
     name: 'Bolt Down',
     description: 'Attack (:crossed_swords: x 0.6) selected enemy, grant :VUL for 2 turns (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Hot Shot',
     description: 'Attack (:crossed_swords: x 0.6) selected enemy, grant :VUL for 2 turns',
   },
-  '2B': {
+  b2: {
     name: 'Blood Shot',
     description: 'Attack (:crossed_swords: x 1.2) selected enemy. 20% chance to trigger self 4 block skill instead',
   },
-  '4B': {
+  b4: {
     name: 'Skyfall Shot',
     description: 'Attack (:crossed_swords: x 2.5) selected enemy. 20% chance for a Critical Strike that does 3x Damage',
   },

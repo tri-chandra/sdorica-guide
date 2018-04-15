@@ -12,15 +12,15 @@ export const charle_r = new Charle({
     name: 'Myth Buster Move',
     description: '2 blocks become black. (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Spell Blinder',
     description: 'Attack (:crossed_swords: x 1) random enemy',
   },
-  '2B': {
+  b2: {
     name: 'Spelling Be Done',
     description: 'Attack (:crossed_swords: x 1) all enemies. Clear 2 blocks',
   },
-  '4B': {
+  b4: {
     name: 'Spellcheck Mate',
     description: 'Attack (:crossed_swords: x 1.5) all enemies',
   },
@@ -36,15 +36,15 @@ export const charle_sr = new Charle({
     name: 'Myth Buster Move',
     description: '2 blocks become black. (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'Spell Blinder',
     description: 'Attack (:crossed_swords: x 1) selected enemy. Clear 1 block',
   },
-  '2B': {
+  b2: {
     name: 'Spelling Be Done',
     description: 'Attack (:crossed_swords: x 1) all enemies. Clear 2 blocks',
   },
-  '4B': {
+  b4: {
     name: 'Spellcheck Mate',
     description: 'Attack (:crossed_swords: x 1.5) all enemies',
   },
@@ -60,15 +60,15 @@ export const charle_ssr = new Charle({
     name: 'Myth Buster Move',
     description: '2 blocks become black. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Spell Blinder',
     description: 'Attack (:crossed_swords: x 1) selected enemy. Clear 1 block',
   },
-  '2B': {
+  b2: {
     name: 'Spelling Be Done',
     description: 'Attack (:crossed_swords: x 1) all enemies. Clear 2 blocks',
   },
-  '4B': {
+  b4: {
     name: 'Spellcheck Mate',
     description: 'Attack (:crossed_swords: x 2) all enemies. Clear 3 blocks',
   },

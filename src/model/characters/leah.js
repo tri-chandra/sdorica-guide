@@ -12,15 +12,15 @@ export const leah_r= new Leah({
     name: 'Funny Bunny',
     description: 'Allies\' Attack effects increase by 20%',
   },
-  '1B': {
+  b1: {
     name: 'Bad Egg',
     description: 'Attack (:crossed_swords: x 1) random enemy',
   },
-  '2B': {
+  b2: {
     name: 'The Egg Chick',
     description: 'Attack (:crossed_swords: x 1) random enemy 2 times',
   },
-  '4B': {
+  b4: {
     name: 'Eggs Over Easy',
     description: 'Attack (:crossed_swords: x 1) random enemy 4 times',
   },
@@ -36,15 +36,15 @@ export const leah_sr = new Leah({
     name: 'Funny Bunny',
     description: 'Allies\' Attack effects increase by 25%',
   },
-  '1B': {
+  b1: {
     name: 'Bad Egg',
     description: 'Attack (:crossed_swords: x 1) random enemy, grant Taunt',
   },
-  '2B': {
+  b2: {
     name: 'The Egg Chick',
     description: 'Attack (:crossed_swords: x 1) random enemy 2 times',
   },
-  '4B': {
+  b4: {
     name: 'Eggs Over Easy',
     description: 'Attack (:crossed_swords: x 1) random enemy 4 times',
   },
@@ -60,15 +60,15 @@ export const leah_ssr = new Leah({
     name: 'Funny Bunny',
     description: 'Allies\' Attack effects increase by 30%',
   },
-  '1B': {
+  b1: {
     name: 'Bad Egg',
     description: 'Attack (:crossed_swords: x 1) random enemy, grant Taunt',
   },
-  '2B': {
+  b2: {
     name: 'The Egg Chick',
     description: 'Attack (:crossed_swords: x 1) random enemy 2 times',
   },
-  '4B': {
+  b4: {
     name: 'Eggs Over Easy',
     description: 'Attack (:crossed_swords: x 1) random enemy 4 times with last hit dealing bonus damage (:crossed_swords: x 0.5), grant :EXH',
   },

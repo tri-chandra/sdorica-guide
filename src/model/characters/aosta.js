@@ -12,15 +12,15 @@ export const aosta_r = new Aosta({
     name: 'Diss Engaged',
     description: 'Clear 2 selected White blocks. (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Fresh Flesh',
     description: 'Heal (:crossed_swords: x 1.08) selected ally. Clear 1 White block.',
   },
-  '2B': {
+  b2: {
     name: 'Flesh Hook Up',
     description: 'Grant selected ally 2 stacks :ENHANCE.',
   },
-  '4B': {
+  b4: {
     name: 'Win The Flesh',
     description: 'Grant selected ally 3 stacks :ENHANCE and 3 stacks :DMGRED.',
   },
@@ -36,15 +36,15 @@ export const aosta_sr = new Aosta({
     name: 'Diss Engaged',
     description: 'Clear 2 selected White blocks. (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'Fresh Flesh',
     description: 'Heal (:crossed_swords: x 1.08) selected ally. Clear 1 White block.',
   },
-  '2B': {
+  b2: {
     name: 'Flesh Hook Up',
     description: 'Grant selected ally 2 stacks :ENHANCE and 2 stacks :DMGRED. Clear 1 White block.',
   },
-  '4B': {
+  b4: {
     name: 'Win The Flesh',
     description: 'Grant selected ally 3 stacks :ENHANCE and 3 stacks :DMGRED.',
   },
@@ -60,15 +60,15 @@ export const aosta_ssr = new Aosta({
     name: 'Diss Engaged',
     description: 'Clear 2 selected White blocks. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Fresh Flesh',
     description: 'Heal (:crossed_swords: x 1.35) selected ally. Clear 2 White blocks.',
   },
-  '2B': {
+  b2: {
     name: 'Flesh Hook Up',
     description: 'Grant selected ally 2 stacks :ENHANCE and 2 stacks :DMGRED. Clear 1 White block.',
   },
-  '4B': {
+  b4: {
     name: 'Win The Flesh',
     description: 'Grant selected ally 3 stacks :ENHANCE and 3 stacks :DMGRED.',
   },
@@ -84,15 +84,15 @@ export const aosta_skin = new Aosta({
     name: 'Behind Closed Doors',
     description: 'Grant selecetd ally 2 stacks :ENHANCE, grant selected enemy 2 stacks of :VUL. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Double-Cross',
     description: 'Heal selected enemy to full HP, grant :STUN',
   },
-  '2B': {
+  b2: {
     name: 'Fair And Square',
     description: 'Grant ally 2 stacks of :ENHANCE, grant selected enemy 2 stacks of :VUL',
   },
-  '4B': {
+  b4: {
     name: 'Supreme Interference',
     description: 'Grant selected ally :ENHANCE for all turns, grant selected enemy :VUL for all turns',
   },

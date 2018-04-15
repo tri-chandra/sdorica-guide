@@ -50,9 +50,9 @@ class BaseCharacter {
     this.statusObj = {};
     this.status = [];
     Modifiers.forEach((status) => {
-      this.replaceSkillDescription('1B', status);
-      this.replaceSkillDescription('2B', status);
-      this.replaceSkillDescription('4B', status);
+      this.replaceSkillDescription(b1, status);
+      this.replaceSkillDescription(b2, status);
+      this.replaceSkillDescription(b4, status);
       this.replaceSkillDescription('advisor', status);
       this.replaceSkillDescription('passive', status);
     });

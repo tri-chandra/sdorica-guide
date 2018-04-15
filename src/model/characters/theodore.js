@@ -12,15 +12,15 @@ export const theodore_r = new Theodore({
     name: 'Teach And Preach',
     description: 'Grant selected ally :DMGRED for 3 turns. (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Sidetrack King',
     description: 'Grant selected ally Taunt for 3 turns.',
   },
-  '2B': {
+  b2: {
     name: 'King Pinned',
     description: 'Grant front row ally (:crossed_swords: x 1.8) Armor.',
   },
-  '4B': {
+  b4: {
     name: 'Merry May King',
     description: 'Grant front row ally (:crossed_swords: x 1.8) Armor, trigger 4 block skill.',
   },
@@ -36,15 +36,15 @@ export const theodore_sr = new Theodore({
     name: 'Teach And Preach',
     description: 'Grant selected ally :DMGRED for 3 turns. (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'Sidetrack King',
     description: 'Grant selected ally Taunt for 3 turns.',
   },
-  '2B': {
+  b2: {
     name: 'King Pinned',
     description: 'Grant front row ally (:crossed_swords: x 1.8) Armor and :DMGRED.',
   },
-  '4B': {
+  b4: {
     name: 'Merry May King',
     description: 'Grant selected ally (:crossed_swords: x 1.8) Armor, trigger 4 block skill.',
   },
@@ -60,15 +60,15 @@ export const theodore_ssr = new Theodore({
     name: 'Teach And Preach',
     description: 'Grant selected ally :DMGRED for 3 turns. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Sidetrack King',
     description: 'Grant selected ally Taunt for 3 turns, trigger 1 block skill.',
   },
-  '2B': {
+  b2: {
     name: 'King Pinned',
     description: 'Grant front row ally (:crossed_swords: x 1.8) Armor and :DMGRED.',
   },
-  '4B': {
+  b4: {
     name: 'Merry May King',
     description: 'Grant selected ally (:crossed_swords: x 1.8) Armor, trigger 4 block skill.',
   },
@@ -85,15 +85,15 @@ export const theodore_skin = new Theodore({
     name: 'Ruler\'s Glory',
     description: 'Grant all allies (:crossed_swords: x 0.72) Armor, grant front row ally two stacks :ENHANCE. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Ruler\'s Decree',
     description: 'Grant selected ally Taunt for 3 turns, trigger 1 block skill.',
   },
-  '2B': {
+  b2: {
     name: 'Ruler\'s Fortification',
     description: 'Grant front all allies (:crossed_swords: x 0.72) Armor, grant front ally 2 stacks :ENHANCE.',
   },
-  '4B': {
+  b4: {
     name: 'Ruler\'s Consecration',
     description: 'Grant all allies (:crossed_swords: x 1.2) Armor, trigger front row ally 4 block skill.',
   },

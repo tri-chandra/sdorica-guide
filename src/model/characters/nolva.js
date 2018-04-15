@@ -12,15 +12,15 @@ export const nolva_r = new Nolva({
     name: 'Incur Mission',
     description: 'Clear 4 selected black blocks. (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Sob Scene',
     description: 'True Damage (:crossed_swords: x 0.5) all enemies. Grant ally :VUL',
   },
-  '2B': {
+  b2: {
     name: 'Love Scene Awry',
     description: 'True Damage (:crossed_swords: x 1) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Remake A Scene',
     description: 'True Damage (:crossed_swords: x 1) all enemies',
   },
@@ -36,15 +36,15 @@ export const nolva_sr = new Nolva({
     name: 'Incur Mission',
     description: 'Clear 4 selected black blocks. (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'Sob Scene',
     description: 'True Damage (:crossed_swords: x 0.5) all enemies. Grant ally :VUL',
   },
-  '2B': {
+  b2: {
     name: 'Love Scene Awry',
     description: 'True Damage (:crossed_swords: x 1.5) front row enemy. Clear 1 black block',
   },
-  '4B': {
+  b4: {
     name: 'Remake A Scene',
     description: 'True Damage (:crossed_swords: x 1) all enemies',
   },
@@ -60,15 +60,15 @@ export const nolva_ssr = new Nolva({
     name: 'Incur Mission',
     description: 'Clear 4 selected black blocks. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Sob Scene',
     description: 'True Damage (:crossed_swords: x 0.5) all enemies. Grant ally :VUL',
   },
-  '2B': {
+  b2: {
     name: 'Love Scene Awry',
     description: 'True Damage (:crossed_swords: x 1.5) front row enemy. Clear 1 black block',
   },
-  '4B': {
+  b4: {
     name: 'Remake A Scene',
     description: 'True Damage (:crossed_swords: x 2) all enemies. Grant ally and all enemies 3 stacks :VUL',
   },

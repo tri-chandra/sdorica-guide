@@ -7,21 +7,23 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
-
+    isReady: false
   },
 
   getters: {
-
+    isReady(state) {
+      return state.isReady
+    }
   },
 
   mutations: {
-
+    setStoreReady(state) {
+      state.isReady = true
+    }
   },
 
   actions: {
-    init({ commit }) {
-      commit('initGuideStore')
-    }
+
   },
 
   modules: {

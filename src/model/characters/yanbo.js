@@ -12,15 +12,15 @@ export const yanbo_r = new Yanbo({
     name: 'Psyche Relic',
     description: "Increase skill power of ally's 4 block skill by 20%",
   },
-  '1B': {
+  b1: {
     name: 'Live On Air',
     description: 'Grant self :ENHANCE. Switch mode',
   },
-  '2B': {
+  b2: {
     name: 'Dead Beat Air',
     description: 'If ranged offense mode, Attack (:crossed_swords: x 1) all non front row enemies. If single offense mode, Attack (:crossed_swords: x 3) front row enemy, grant self 3 stacks :EXH for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'Airbrush Gush',
     description: 'Attack (:crossed_swords: x 3) front row enemy, grant :STUN',
   },
@@ -36,15 +36,15 @@ export const yanbo_sr = new Yanbo({
     name: 'Psyche Relic',
     description: "Increase skill power of ally's 4 block skill by 25%",
   },
-  '1B': {
+  b1: {
     name: 'Live On Air',
     description: 'Grant self :ENHANCE for 2 turns. Switch mode',
   },
-  '2B': {
+  b2: {
     name: 'Dead Beat Air',
     description: 'If ranged offense mode, Attack (:crossed_swords: x 1) all non front row enemies. If single offense mode, Attack (:crossed_swords: x 3) front row enemy, grant self 3 stacks :EXH for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'Airbrush Gush',
     description: 'Attack (:crossed_swords: x 3) front row enemy, grant :STUN',
   },
@@ -60,15 +60,15 @@ export const yanbo_ssr = new Yanbo({
     name: 'Psyche Relic',
     description: "Increase skill power of ally's 4 block skill by 30%",
   },
-  '1B': {
+  b1: {
     name: 'Live On Air',
     description: 'Grant self :ENHANCE for 3 turns. Switch mode',
   },
-  '2B': {
+  b2: {
     name: 'Dead Beat Air',
     description: 'If ranged offense mode, Attack (:crossed_swords: x 1) all non front row enemies. If single offense mode, Attack (:crossed_swords: x 3) front row enemy, grant self 3 stacks :EXH for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'Airbrush Gush',
     description: 'Attack (:crossed_swords: x 3) front row enemy, grant :STUN',
   },
@@ -84,15 +84,15 @@ export const yanbo_skin = new Yanbo({
     name: 'Spirit Enhancement',
     description: 'Upon Turn if front row ally has 3 stacks of any buff, trigger 2 block skill',
   },
-  '1B': {
+  b1: {
     name: 'Feel The Force',
     description: 'Grant Self 1 stack High Qi',
   },
-  '2B': {
+  b2: {
     name: 'Tranquil Mind',
     description: 'Grant Self 2 Stacks High Qi',
   },
-  '4B': {
+  b4: {
     name: 'Deep Breathing',
     description: 'Grant self 3 stacks High Qi',
   },

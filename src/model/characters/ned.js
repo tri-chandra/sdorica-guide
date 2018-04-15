@@ -12,15 +12,15 @@ export const ned_n = new Ned({
     name: 'Up To Parched',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Tamper Sand',
     description: 'Grant self :RAVE',
   },
-  '2B': {
+  b2: {
     name: 'Quick Sand',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. If have :RAVE, Attack (:crossed_swords: x 2.25) random enemy instead',
   },
-  '4B': {
+  b4: {
     name: 'Delude Sandstorm',
     description: 'Attack (:crossed_swords: x 3) selected enemy. If have :RAVE, Attack (:crossed_swords: x 4.5) random enemy instead',
   },
@@ -36,15 +36,15 @@ export const ned_r = new Ned({
     name: 'Up To Parched',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Tamper Sand',
     description: 'Grant self :RAVE for 3 turns',
   },
-  '2B': {
+  b2: {
     name: 'Quick Sand',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. If have :RAVE, Attack (:crossed_swords: x 2.25) random enemy instead',
   },
-  '4B': {
+  b4: {
     name: 'Delude Sandstorm',
     description: 'Attack (:crossed_swords: x 3) selected enemy. If have :RAVE, Attack (:crossed_swords: x 4.5) random enemy instead',
   },
@@ -60,15 +60,15 @@ export const ned_sr = new Ned({
     name: 'Up To Parched',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'Tamper Sand',
     description: 'Grant self :RAVE for 3 turns',
   },
-  '2B': {
+  b2: {
     name: 'Quick Sand',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. If target less than 50% HP, increase skll power by 50% for this turn. If have :RAVE, Attack (:crossed_swords: x 2.25) random enemy instead',
   },
-  '4B': {
+  b4: {
     name: 'Delude Sandstorm',
     description: 'Attack (:crossed_swords: x 3) selected enemy. If have :RAVE, Attack (:crossed_swords: x 4.5) random enemy instead',
   },
@@ -84,15 +84,15 @@ export const ned_ssr = new Ned({
     name: 'Up To Parched',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Tamper Sand',
     description: 'Grant self :RAVE for 3 turns',
   },
-  '2B': {
+  b2: {
     name: 'Quick Sand',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. If target less than 50% HP, increase skll power by 50% for this turn. If have :RAVE, Attack (:crossed_swords: x 2.25) random enemy instead',
   },
-  '4B': {
+  b4: {
     name: 'Delude Sandstorm',
     description: 'Attack (:crossed_swords: x 3) selected enemy. If not trigger death of target, trigger self 2 block skill 1 time. If have :RAVE, Attack (:crossed_swords: x 4.5) random enemy instead',
   },
@@ -108,15 +108,15 @@ export const ned_skin = new Ned({
     name: 'Predator\'s Imprint',
     description: "Allies' Attack skills grant target :TEAR",
   },
-  '1B': {
+  b1: {
     name: 'Blazing Soul',
     description: 'Grant self :ENHANCE for 3 turns',
   },
-  '2B': {
+  b2: {
     name: 'Deadly Pursuit',
     description: 'Attack (:crossed_swords: x 1.8) back row enemy. Grant :TEAR for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'Designated Target',
     description: 'Attack (:crossed_swords: x 3) selected enemy. Grant :TEAR for all turns',
   },

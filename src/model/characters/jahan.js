@@ -12,15 +12,15 @@ export const jahan_r = new Jahan({
     name: 'Trick Is Treat',
     description: 'Upon incoming damage skill against ally, if ally have Taunt, 20% chance to trigger target 4 block skill',
   },
-  '1B': {
+  b1: {
     name: 'Dead Giveaway',
     description: 'Grant self Taunt for 5 turns. Reset front row enemy CD',
   },
-  '2B': {
+  b2: {
     name: 'Dead Wait',
     description: 'Grant self Taunt for 2 turns and :DMGRED. If have Taunt, Heal (:crossed_swords: x 1.8) self instead',
   },
-  '4B': {
+  b4: {
     name: "Knock 'Em Dead",
     description: 'Attack (:crossed_swords: x 3) selected enemy',
   },
@@ -36,15 +36,15 @@ export const jahan_sr = new Jahan({
     name: 'Trick Is Treat',
     description: 'Upon incoming damage skill against ally, if ally have Taunt, 25% chance to trigger target 4 block skill',
   },
-  '1B': {
+  b1: {
     name: 'Dead Giveaway',
     description: 'Grant self Taunt for 5 turns. Reset front row enemy CD',
   },
-  '2B': {
+  b2: {
     name: 'Dead Wait',
     description: 'Grant self Taunt for 2 turns and 2 stacks :DMGRED. If have Taunt, Heal (:crossed_swords: x 1.8) self instead',
   },
-  '4B': {
+  b4: {
     name: "Knock 'Em Dead",
     description: 'Attack (:crossed_swords: x 4) selected enemy, reset target CD',
   },
@@ -60,15 +60,15 @@ export const jahan_ssr = new Jahan({
     name: 'Trick Is Treat',
     description: 'Upon incoming damage skill against ally, if ally have Taunt, 30% chance to trigger target 4 block skill',
   },
-  '1B': {
+  b1: {
     name: 'Dead Giveaway',
     description: 'Grant self Taunt for 5 turns. Reset front row enemy CD',
   },
-  '2B': {
+  b2: {
     name: 'Dead Wait',
     description: 'Grant self Taunt for 2 turns and :DMGRED for 2 turns. If have Taunt, Heal (:crossed_swords: x 1.8) self instead',
   },
-  '4B': {
+  b4: {
     name: "Knock 'Em Dead",
     description: 'Attack (:crossed_swords: x 4) selected enemy, reset target CD',
   },
@@ -84,15 +84,15 @@ export const jahan_skin = new Jahan({
     name: 'Tactical Taunting',
     description: 'Reset selected enemy CD (CD: 3)',
   },
-  '1B': {
+  b1: {
     name: 'Dead Giveaway',
     description: 'Grant self Taunt for 5 turns. Reset front row enemy CD',
   },
-  '2B': {
+  b2: {
     name: 'Mocking Jab',
     description: 'Grant self Taunt for 2 turns and 2 stacks :DMGRED. If have Taunt, True Damage (:crossed_swords: x 1) all enemies, grant :EXH and :TEAR',
   },
-  '4B': {
+  b4: {
     name: 'Pièce De Résistance ',
     description: 'True Damage (:crossed_swords: x 4) selected enemy, reset all enemies CD',
   },

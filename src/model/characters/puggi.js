@@ -12,15 +12,15 @@ export const puggi_n = new Puggi({
     name: 'Motormouth',
     description: 'Grant selected ally Taunt. (CD: 3)',
   },
-  '1B': {
+  b1: {
     name: 'Mockingbird',
     description: 'Grant selected enemy :EXH.',
   },
-  '2B': {
+  b2: {
     name: "Bird's The Word",
     description: 'Heal (:crossed_swords: x 2.25) or (:crossed_swords: x 0.9) selected ally.',
   },
-  '4B': {
+  b4: {
     name: 'Bird Brain Storming',
     description: 'Grant selected enemy CD +3',
   },
@@ -36,15 +36,15 @@ export const puggi_r = new Puggi({
     name: 'Motormouth',
     description: 'Grant selected ally Taunt. (CD: 3)',
   },
-  '1B': {
+  b1: {
     name: 'Mockingbird',
     description: 'Grant selected enemy 2 stacks :EXH.',
   },
-  '2B': {
+  b2: {
     name: "Bird's The Word",
     description: 'Heal (:crossed_swords: x 2.25) or (:crossed_swords: x 0.9) selected ally.',
   },
-  '4B': {
+  b4: {
     name: 'Bird Brain Storming',
     description: 'Grant selected enemy CD +3',
   },
@@ -60,15 +60,15 @@ export const puggi_sr = new Puggi({
     name: 'Motormouth',
     description: 'Grant selected ally Taunt. (CD: 2)',
   },
-  '1B': {
+  b1: {
     name: 'Mockingbird',
     description: 'Grant selected enemy 2 stacks :EXH.',
   },
-  '2B': {
+  b2: {
     name: "Bird's The Word",
     description: 'Heal (:crossed_swords: x 2.25) or (:crossed_swords: x 0.9) selected ally, grant :ENHANCE',
   },
-  '4B': {
+  b4: {
     name: 'Bird Brain Storming',
     description: 'Grant selected enemy CD +3',
   },
@@ -84,15 +84,15 @@ export const puggi_ssr = new Puggi({
     name: 'Motormouth',
     description: 'Grant selected ally Taunt. (CD: 1)',
   },
-  '1B': {
+  b1: {
     name: 'Mockingbird',
     description: 'Grant selected enemy 2 stacks :EXH.',
   },
-  '2B': {
+  b2: {
     name: "Bird's The Word",
     description: 'Heal (:crossed_swords: x 2.25) or (:crossed_swords: x 0.9) selected ally, grant :ENHANCE',
   },
-  '4B': {
+  b4: {
     name: 'Bird Brain Storming',
     description: 'Grant all enemies CD +3',
   },
@@ -108,15 +108,15 @@ export const puggi_skin = new Puggi({
     name: 'Verbal Compliments',
     description: "Allies' Heal skills grant target :REGEN for 2 turns.",
   },
-  '1B': {
+  b1: {
     name: 'Mockingbird',
     description: 'Grant selected enemy 2 stacks of :EXH',
   },
-  '2B': {
+  b2: {
     name: 'Praise The Lord',
     description: 'Heal (:crossed_swords: x 0.9) selected ally, grant :REGEN for 3 turns.',
   },
-  '4B': {
+  b4: {
     name: 'All Hail Puggi!',
     description: 'Trigger all allies 4 block skill. Reset all anemies CD',
   },

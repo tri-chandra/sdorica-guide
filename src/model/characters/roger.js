@@ -12,15 +12,15 @@ export const roger_n = new Roger({
     name: 'Empower Ranger',
     description: 'If ally has less than 50% HP, increase skill power of 1 block skill by 50%',
   },
-  '1B': {
+  b1: {
     name: 'Cut and Waste',
     description: 'Attack (:crossed_swords: x 1) front row enemy',
   },
-  '2B': {
+  b2: {
     name: 'Cutting Pledge',
     description: 'Attack (:crossed_swords: x 2) front row enemy. Grant self :VUL',
   },
-  '4B': {
+  b4: {
     name: 'Cut Core Nerves',
     description: 'Attack (:crossed_swords: x 4) front row enemy',
   },
@@ -36,15 +36,15 @@ export const roger_r = new Roger({
     name: 'Empower Ranger',
     description: 'If ally has less than 50% HP, increase skill power of 1 block skill by 50%',
   },
-  '1B': {
+  b1: {
     name: 'Cut and Waste',
     description: 'Attack (:crossed_swords: x 1) front row enemy',
   },
-  '2B': {
+  b2: {
     name: 'Cutting Pledge',
     description: 'Attack (:crossed_swords: x 2.5) front row enemy. Grant self :VUL for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'Cut Core Nerves',
     description: 'Attack (:crossed_swords: x 4) front row enemy',
   },
@@ -60,15 +60,15 @@ export const roger_sr = new Roger({
     name: 'Empower Ranger',
     description: 'If ally has less than 50% HP, increase skill power of 1 block skill by 50%',
   },
-  '1B': {
+  b1: {
     name: 'Cut and Waste',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy. Remove self 20% HP',
   },
-  '2B': {
+  b2: {
     name: 'Cutting Pledge',
     description: 'Attack (:crossed_swords: x 2.5) front row enemy. Grant self :VUL for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'Cut Core Nerves',
     description: 'Attack (:crossed_swords: x 4) front row enemy',
   },
@@ -84,15 +84,15 @@ export const roger_ssr = new Roger({
     name: 'Empower Ranger',
     description: 'If ally has less than 80% HP, increase skill power of 1 block skill by 50%',
   },
-  '1B': {
+  b1: {
     name: 'Cut and Waste',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy. Remove self 20% HP',
   },
-  '2B': {
+  b2: {
     name: 'Cutting Pledge',
     description: 'Attack (:crossed_swords: x 2.5) front row enemy. Grant self :VUL for 3 turns',
   },
-  '4B': {
+  b4: {
     name: 'Cut Core Nerves',
     description: 'Attack (:crossed_swords: x 6) front row enemy. Trigger death of self',
   },

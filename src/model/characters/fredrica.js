@@ -12,15 +12,15 @@ export const fredrica_r = new Fredrica({
     name: 'Affectionate Cheer',
     description: 'Upon death of target by ally, heal ally equal to 20% of max HP',
   },
-  '1B': {
+  b1: {
     name: 'Love Is Blind',
     description: 'Attack (:crossed_swords: x 0.8) selected enemy.',
   },
-  '2B': {
+  b2: {
     name: 'Burning Love',
     description: 'Attack (:crossed_swords: x 0.8) all enemies.',
   },
-  '4B': {
+  b4: {
     name: 'Tears Of Joy',
     description: 'Heal (:crossed_swords: x 1.44) all allies. Clear all white blocks.',
   },
@@ -36,15 +36,15 @@ export const fredrica_sr = new Fredrica({
     name: 'Affectionate Cheer',
     description: 'Upon death of target by ally, heal ally equal to 25% of max HP',
   },
-  '1B': {
+  b1: {
     name: 'Love Is Blind',
     description: 'Attack (:crossed_swords: x 0.8) selected enemy.',
   },
-  '2B': {
+  b2: {
     name: 'Burning Love',
     description: 'Attack (:crossed_swords: x 0.8) all enemies. Grant :EXH or :STUN. ',
   },
-  '4B': {
+  b4: {
     name: 'Tears Of Joy',
     description: 'Heal (:crossed_swords: x 1.44) all allies. Clear all white blocks.',
   },
@@ -60,15 +60,15 @@ export const fredrica_ssr = new Fredrica({
     name: 'Affectionate Cheer',
     description: 'Upon death of target by ally, heal ally equal to 30% of max HP',
   },
-  '1B': {
+  b1: {
     name: 'Love Is Blind',
     description: 'Attack (:crossed_swords: x 0.8) selected enemy. Grant :EXH or :STUN.',
   },
-  '2B': {
+  b2: {
     name: 'Burning Love',
     description: 'Attack (:crossed_swords: x 0.8) all enemies. Grant :EXH or :STUN.',
   },
-  '4B': {
+  b4: {
     name: 'Tears Of Joy',
     description: 'Heal (:crossed_swords: x 1.44) all allies. Clear all white blocks.',
   },

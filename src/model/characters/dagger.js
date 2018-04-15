@@ -12,15 +12,15 @@ export const dagger_n = new Dagger({
       name: 'Death Dance',
       description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy. (CD: 7)',
   },
-  '1B': {
+  b1: {
       name: 'Bear A Grudge',
       description: 'Armor Penetration (:crossed_swords: x 0.6) front row enemy. 50% chance to trigger target CD +1.',
   },
-  '2B': {
+  b2: {
       name: 'Bear Hug',
       description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy',
   },
-  '4B': {
+  b4: {
       name: 'Bearly Alive',
       description: 'Armor Penetration (:crossed_swords: x 1.2) all enemies',
   },
@@ -36,15 +36,15 @@ export const dagger_r = new Dagger({
     name: 'Death Dance',
     description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy. (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'Bear A Grudge',
     description: 'Armor Penetration (:crossed_swords: x 0.6) front row enemy. 50% chance to trigger target CD +1',
   },
-  '2B': {
+  b2: {
     name: 'Bear Hug',
     description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Bearly Alive',
     description: 'Armor Penetration (:crossed_swords: x 1.2) all enemies. Grant self :ENHANCE for 2 turns',
   },
@@ -60,15 +60,15 @@ export const dagger_sr = new Dagger({
     name: 'Death Dance',
     description: 'Armor Penetration (:crossed_sword: x 1.5) front row enemy. (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'Bear A Grudge',
     description: 'Armor Penetration (:crossed_swords: x 0.6) front row enemy. 50% chance to trigger target CD +1',
   },
-  '2B': {
+  b2: {
     name: 'Bear Hug',
     description: 'Armor Penetration (:crossed_swords: x 1.5) Grant self :ENHANCE for 2 turns',
   },
-  '4B': {
+  b4: {
     name: 'Bearly Alive',
     description: 'Armor Penetration (:crossed_swords: x 1.2) all enemies. Grant self :ENHANCE for 2 turns',
   },
@@ -84,15 +84,15 @@ export const dagger_ssr = new Dagger({
     name: 'Death Dance',
     description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy. (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'Bear A Grudge',
     description: 'Armor Penetration (:crossed_swords: x 0.6) front row enemy. 50% chance to trigger target CD +1, 100% if self has :ENHANCE.',
   },
-  '2B': {
+  b2: {
     name: 'Bear Hug',
     description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy. Grant self :ENHANCE for 2 turns.',
   },
-  '4B': {
+  b4: {
     name: 'Bearly Alive',
     description: 'Armor Penetration (:crossed_swords: x 1.2) all enemies. Grant self :ENHANCE for 2 turns',
   },
@@ -108,15 +108,15 @@ export const dagger_skin = new Dagger({
     name: 'Night Watcher',
     description: 'Upon cast skill by ally, if enemy CD is altered, grant :ENHANCE for 2 turns',
   },
-  '1B': {
+  b1: {
     name: 'Cloaked Ambush',
     description: 'Armor Penetration (:crossed_swords: x 0.375) front row enemy. If target is at CD:1, grant CD +1',
   },
-  '2B': {
+  b2: {
     name: 'Fishstone Blaster',
     description: 'Armor Penetration (:crossed_swords: x 1.125) selected enemy. If target is at CD:1, grant CD +1',
   },
-  '4B': {
+  b4: {
     name: 'Eat My Fish!',
     description: 'Armor Penetration (:crossed_swords: x 1.125) all enemies. If target is at CD:1, grant :STUN',
   },

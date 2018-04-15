@@ -12,15 +12,15 @@ export const pang_n = new Pang({
     name: 'Acupoint Attack',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'One Paw Man',
     description: 'Attack (:crossed_swords: x 0.75) front row enemy. Grant self :DMGRED for 2 turns',
   },
-  '2B': {
+  b2: {
     name: 'Powerful Punch',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy',
   },
-  '4B': {
+  b4: {
     name: "Paws Won't Pause",
     description: 'Attack (:crossed_swords: x 3) front row enemy',
   },
@@ -36,15 +36,15 @@ export const pang_r = new Pang({
     name: 'Acupoint Attack',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy (CD: 7)',
   },
-  '1B': {
+  b1: {
     name: 'One Paw Man',
     description: 'Attack (:crossed_swords: x 0.75) front row enemy. Grant self :DMGRED for 2 turns',
   },
-  '2B': {
+  b2: {
     name: 'Powerful Punch',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy. Grant self 1 stack :WINDU',
   },
-  '4B': {
+  b4: {
     name: "Paws Won't Pause",
     description: 'Attack (:crossed_swords: x 3) front row enemy. Grant self 2 stacks :ENHANCE for 3 turns',
   },
@@ -60,15 +60,15 @@ export const pang_sr = new Pang({
     name: 'Acupoint Attack',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy (CD: 6)',
   },
-  '1B': {
+  b1: {
     name: 'One Paw Man',
     description: 'Attack (:crossed_swords: x 0.75) front row enemy. Grant self :DMGRED for 2 turns',
   },
-  '2B': {
+  b2: {
     name: 'Powerful Punch',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy. Grant self 1 stack :WINDU',
   },
-  '4B': {
+  b4: {
     name: "Paws Won't Pause",
     description: 'Attack (:crossed_swords: x 3) front row enemy. Grant self 2 stacks :ENHANCE for 3 turns',
   },
@@ -84,15 +84,15 @@ export const pang_ssr = new Pang({
     name: 'Acupoint Attack',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy (CD: 5)',
   },
-  '1B': {
+  b1: {
     name: 'One Paw Man',
     description: 'Attack (:crossed_swords: x 0.75) front row enemy. Grant self :DMGRED for 2 turns',
   },
-  '2B': {
+  b2: {
     name: 'Powerful Punch',
     description: 'Attack (:crossed_swords: x 1.5) front row enemy. Grant self 1 or 2 stacks :WINDU',
   },
-  '4B': {
+  b4: {
     name: "Paws Won't Pause",
     description: 'Attack (:crossed_swords: x 3) front row enemy. Grant self 2 stacks :ENHANCE for 3 turns',
   },

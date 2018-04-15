@@ -12,15 +12,15 @@ export const tica_n = new Tica({
     name: 'Healing Vibes',
     description: 'Allies\' Heal effects increase by 15%.',
   },
-  '1B': {
+  b1: {
     name: 'High Light',
     description: 'Heal (:crossed_swords: x 0.45) selected ally, grant :ENHANCE for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Flash Light',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy.',
   },
-  '4B': {
+  b4: {
     name: 'Let There Be Light',
     description: 'Heal (:crossed_swords: x 2.25) ally with lowest HP %.',
   },
@@ -36,15 +36,15 @@ export const tica_r = new Tica({
     name: 'Healing Vibes',
     description: 'Allies\' Heal effects increased by 20%.',
   },
-  '1B': {
+  b1: {
     name: 'High Light',
     description: 'Heal (:crossed_swords: x 0.45) selected ally, grant :ENHANCE for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Flash Light',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy.',
   },
-  '4B': {
+  b4: {
     name: 'Let There Be Light',
     description: 'Heal (:crossed_swords: x 2.25) ally with lowest HP %, grant :DMGRED for 3 turns.',
   },
@@ -60,15 +60,15 @@ export const tica_sr = new Tica({
     name: 'Healing Vibes',
     description: 'Allies\' Heal effects increased by 25%.',
   },
-  '1B': {
+  b1: {
     name: 'High Light',
     description: 'Heal (:crossed_swords: x 0.45) selected ally, grant :ENHANCE for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Flash Light',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. Clear 1 white block.',
   },
-  '4B': {
+  b4: {
     name: 'Let There Be Light',
     description: 'Heal (:crossed_swords: x 2.25) ally with lowest HP %, grant :DMGRED for 3 turns.',
   },
@@ -84,15 +84,15 @@ export const tica_ssr = new Tica({
     name: 'Healing Vibes',
     description: 'Allies\' Heal effects increased by 30%.',
   },
-  '1B': {
+  b1: {
     name: 'High Light',
     description: 'Heal (:crossed_swords: x 0.45) selected ally, grant :ENHANCE for 2 turns.',
   },
-  '2B': {
+  b2: {
     name: 'Flash Light',
     description: 'Attack (:crossed_swords: x 1.5) selected enemy. Clear 1 white block.',
   },
-  '4B': {
+  b4: {
     name: 'Let There Be Light',
     description: 'Heal (:crossed_swords: x 2.25) selected ally, grant :DMGRED for 3 turns.',
   },

@@ -12,15 +12,15 @@ export const golemwalt_n = new Golemwalt({
     name: 'Collision Course',
     description: 'Armor Penetration (:crossed_swords: x 1.87) all enemies and (:crossed_swords: x 0.75) all allies (CD: 12)',
   },
-  '1B': {
+  b1: {
     name: 'On The Rocks',
     description: 'Grant self (:crossed_swords: x 0.36) Armor and :ENHANCE for 3 turns',
   },
-  '2B': {
+  b2: {
     name: "Rock N' Roll",
     description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Rocky Horror Show',
     description: 'Armor Penetration (:crossed_swords: x 1.87) all enemies and (:crossed_swords: x 0.75) all allies',
   },
@@ -36,15 +36,15 @@ export const golemwalt_r = new Golemwalt({
     name: 'Collision Course',
     description: 'Armor Penetration (:crossed_swords: x 1.87) all enemies and (:crossed_swords: x 0.75) all allies (CD: 12)',
   },
-  '1B': {
+  b1: {
     name: 'On The Rocks',
     description: 'Grant self (:crossed_swords: x 0.36) Armor and :ENHANCE for 3 turns. If have Armor, grant all allies :ENHANCE for 3 turns instead',
   },
-  '2B': {
+  b2: {
     name: "Rock N' Roll",
     description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Rocky Horror Show',
     description: 'Armor Penetration (:crossed_swords: x 1.87) all enemies and (:crossed_swords: x 0.75) all allies',
   },
@@ -60,15 +60,15 @@ export const golemwalt_sr = new Golemwalt({
     name: 'Collision Course',
     description: 'Armor Penetration (:crossed_swords: x 1.87) all enemies and (:crossed_swords: x 0.75) all allies (CD: 11)',
   },
-  '1B': {
+  b1: {
     name: 'On The Rocks',
     description: 'Grant self (:crossed_swords: x 0.36) Armor and :ENHANCE for 3 turns. If have Armor, grant all allies :ENHANCE for 3 turns instead',
   },
-  '2B': {
+  b2: {
     name: "Rock N' Roll",
     description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy',
   },
-  '4B': {
+  b4: {
     name: 'Rocky Horror Show',
     description: 'Armor Penetration (:crossed_swords: x 1.87) all enemies and (:crossed_swords: x 0.75) all allies',
   },
@@ -84,15 +84,15 @@ export const golemwalt_ssr = new Golemwalt({
     name: 'Collision Course',
     description: 'Armor Penetration (:crossed_swords: x 1.87) all enemies and (:crossed_swords: x 0.75) all allies (CD: 10)',
   },
-  '1B': {
+  b1: {
     name: 'On The Rocks',
     description: 'Grant self (:crossed_swords: x 0.36) Armor and :ENHANCE for 3 turns. If have Armor, grant all allies :ENHANCE for 3 turns instead',
   },
-  '2B': {
+  b2: {
     name: "Rock N' Roll",
     description: 'Armor Penetration (:crossed_swords: x 1.5) front row enemy. If have Armor, Armor Penetration (:crossed_swords: x 1.5) selected enemy instead',
   },
-  '4B': {
+  b4: {
     name: 'Rocky Horror Show',
     description: 'Armor Penetration (:crossed_swords: x 1.875) all enemies and (:crossed_swords: x 0.75) all allies.  If have Armor, Armor Penetration (:crossed_swords: x 1.875) all enemies instead',
   },

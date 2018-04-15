@@ -83,10 +83,27 @@ export const guildAdvisor = [
   ...black,
   ...white
 ]
+
+
 export default {
   white,
   black,
   gold,
   advisor,
   guildAdvisor,
+  findCharacter
+}
+
+export function findCharacter(id) {
+  if (id) {
+    const rawCode = id.split('_')
+    const code = rawCode[0]
+    const tier = rawCode[1]
+
+    return advisor.find((item) => {
+      return item.code===code && item.tier.code === tier
+    })
+  } else {
+    return null
+  }
 }

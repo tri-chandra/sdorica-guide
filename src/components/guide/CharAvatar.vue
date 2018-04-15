@@ -11,7 +11,7 @@ export default {
   name: 'CharAvatar',
   props: {
     value: {
-      type: Object,
+      type: [Object, String],
       default: {
         name: '',
         portrait: ''
@@ -20,6 +20,11 @@ export default {
     size: {
       type: Number,
       default: 84
+    }
+  },
+  watch: {
+    value(val) {
+
     }
   }
 }

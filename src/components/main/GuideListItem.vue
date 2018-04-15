@@ -4,13 +4,19 @@
       <v-list-tile-title>
         {{value.title}}
         <v-avatar :size="24">
-          <img src="/static/avatar/pang_ssr.png" />
+          <img :src="goldPortrait" />
         </v-avatar>
         <v-avatar :size="24">
-          <img src="/static/avatar/naya_ssr.png" />
+          <img :src="blackPortrait" />
         </v-avatar>
         <v-avatar :size="24">
-          <img src="/static/avatar/angelia_ssr.png" />
+          <img :src="whitePortrait" />
+        </v-avatar>
+        <v-avatar :size="24">
+          <img :src="advisorPortrait" />
+        </v-avatar>
+        <v-avatar :size="24">
+          <img :src="guildPortrait" />
         </v-avatar>
       </v-list-tile-title>
       <v-list-tile-sub-title>
@@ -21,10 +27,34 @@
 </template>
 
 <script>
+import CharList from '@/model/characters'
+
 export default {
   name: 'GuideListItem',
   props: {
     value: Object
+  },
+  computed: {
+    goldPortrait() {
+      const chara = CharList.findCharacter(this.value.team.gold.char)
+      return chara ? chara.portrait : '/static/avatar/figure_none.png'
+    },
+    blackPortrait() {
+      const chara = CharList.findCharacter(this.value.team.black.char)
+      return chara ? chara.portrait : '/static/avatar/figure_none.png'
+    },
+    whitePortrait() {
+      const chara = CharList.findCharacter(this.value.team.white.char)
+      return chara ? chara.portrait : '/static/avatar/figure_none.png'
+    },
+    advisorPortrait() {
+      const chara = CharList.findCharacter(this.value.team.advisor.char)
+      return chara ? chara.portrait : '/static/avatar/figure_none.png'
+    },
+    guildPortrait() {
+      const chara = CharList.findCharacter(this.value.team.guildAdvisor.char)
+      return chara ? chara.portrait : '/static/avatar/figure_none.png'
+    },
   }
 }
 </script>
