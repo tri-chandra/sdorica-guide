@@ -10,7 +10,7 @@
         label="Description"></v-text-field>
     </v-form>
 
-    <char-card
+    <char-card @portraitClicked="onShowDetail"
       class="char-card"
       :position="goldCharList"
     />
@@ -69,11 +69,11 @@
       app
     >
       <v-list>
-        <v-list-tile @click="doNothing">
-          <v-list-tile-action>
-            <v-icon>compare_arrows</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-title>Switch drawer (click me)</v-list-tile-title>
+        <v-list-tile>
+          <char-avatar v-model="selectedChar" />
+        </v-list-tile>
+        <v-list-tile>
+          <v-list-tile-content>List character stats and info here...</v-list-tile-content>
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
@@ -82,17 +82,20 @@
 
 <script>
 import { gold, black, white, advisor, guildAdvisor } from '@/model/characters'
+
+import CharAvatar from '@/components/guide/CharAvatar'
 import CharCard from '@/components/guide/CharCard'
 
 export default {
   name: 'GuidePage',
-  components: { CharCard },
+  components: { CharCard, CharAvatar },
   props: {
     id: String
   },
   data() {
     return {
       localGuide: {},
+      selectedChar: {},
       showCharDetails: false,
       whiteCharList: white,
       blackCharList: black,
@@ -114,8 +117,11 @@ export default {
     }
   },
   methods: {
-    doNothing() {
-
+    onShowDetail(selectedChar) {
+      if (selectedChar) {
+        this.showCharDetails = true
+        this.selectedChar = selectedChar
+      }
     }
   }
 }

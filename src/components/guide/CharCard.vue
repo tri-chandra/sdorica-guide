@@ -2,7 +2,7 @@
   <v-card>
     <v-layout>
       <v-flex xs4>
-        <v-avatar :size="96" tile>
+        <v-avatar :size="96" tile @click="onAvatarClicked">
           <img :src="selectedChar.portrait" />
         </v-avatar>
         <v-select
@@ -47,7 +47,9 @@ export default {
     }
   },
   methods: {
-
+    onAvatarClicked() {
+      this.$emit('portraitClicked', {...this.selectedChar})
+    }
   }
 }
 </script>
