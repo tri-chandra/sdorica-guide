@@ -2,7 +2,7 @@
   <v-card>
     <v-layout>
       <v-flex xs4>
-        <v-avatar :size="192" tile>
+        <v-avatar :size="96" tile>
           <img :src="selectedChar.portrait" />
         </v-avatar>
         <v-select

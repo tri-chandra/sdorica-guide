@@ -11,18 +11,23 @@
     </v-form>
 
     <char-card
+      class="char-card"
       :position="goldCharList"
     />
     <char-card
+      class="char-card"
       :position="blackCharList"
     />
     <char-card
+      class="char-card"
       :position="whiteCharList"
     />
     <char-card
+      class="char-card"
       :position="advisorCharList"
     />
     <char-card
+      class="char-card"
       :position="guildCharList"
     />
 
@@ -88,7 +93,7 @@ export default {
   data() {
     return {
       localGuide: {},
-      showCharDetails: true,
+      showCharDetails: false,
       whiteCharList: white,
       blackCharList: black,
       goldCharList: gold,
@@ -115,3 +120,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.char-card {
+  margin-bottom: 10px;
+}
+</style>
