@@ -79,7 +79,7 @@ const store = {
     },
     getSelectedGuide({getters, commit}, id) {
       getters.collection.doc(id).get().then((doc) => {
-        commit('setSelectedGuide', doc.data())
+        commit('setSelectedGuide', {...doc.data(), id:id})
       })
     }
   }

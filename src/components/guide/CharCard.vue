@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card style="padding:10px;">
     <v-layout row wrap>
       <v-flex xs12>{{title}}</v-flex>
       <v-flex xs12>
