@@ -13,7 +13,8 @@
     <v-flex xs6><v-text-field v-model="monster.fullArmor" label="Armor" /></v-flex>
   </v-layout>
   <div v-for="(item, idx) in monster.skills" :key="idx">
-    {{item.code}} - {{item.note}}
+    <v-avatar><img :src="item.code.portrait" /></v-avatar>
+    {{item.note}}
   </div>
 
   <v-select

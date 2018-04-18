@@ -4,7 +4,7 @@ export const Aura = {
   code: 'Aura'
 };
 export const Onhit = {
-  portrait: './static/ui/be-attacked.png',
+  portrait: './static/ui/be_attacked.png',
   text: 'On-hit',
   code: 'Onhit'
 };

@@ -1,11 +1,11 @@
 <template>
 <v-card>
   <v-layout row wrap>
-    <v-flex xs4>
-      <monster-panel />
+    <v-flex xs4 v-for="(monster, idx) in stage.monsters" :key="idx">
+      <monster-panel v-model="stage.monsters[idx]" />
     </v-flex>
     <v-flex>
-      <v-btn><v-icon>add</v-icon></v-btn>
+      <v-btn @click="addMonster"><v-icon>add</v-icon></v-btn>
     </v-flex>
   </v-layout>
   <v-text-field
@@ -28,6 +28,11 @@ export default {
         monsters: [],
         note: ''
       }
+    }
+  },
+  methods: {
+    addMonster() {
+      this.stage.monsters.push({})
     }
   }
 }
