@@ -1,14 +1,14 @@
 <template>
-  <v-card>
-    <monster-panel />
-  </v-card>
+<div>
+  <monster-card />
+</div>
 </template>
 
 <script>
-import MonsterPanel from '@/components/guide/MonsterPanel'
+import MonsterCard from '@/components/guide/MonsterCard'
 
 export default {
-  components: { MonsterPanel },
+  components: { MonsterCard },
   data() {
     return {
 

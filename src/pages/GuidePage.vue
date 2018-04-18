@@ -67,17 +67,7 @@
         </div>
       </v-card-title>
     </v-card>
-    <v-card>
-      <v-layout row wrap>
-        <v-flex xs4>
-          <monster-panel />
-        </v-flex>
-      </v-layout>
-      <v-text-field
-        multi-line
-        label="Stage Note"
-      ></v-text-field>
-    </v-card>
+    <monster-card class="char-card" />
 
     <v-text-field
       v-model="localGuide.closingNote"
@@ -146,11 +136,11 @@ import { gold, black, white, advisor, guildAdvisor } from '@/model/characters'
 import SkillIcon from '@/components/guide/SkillIcon'
 import CharAvatar from '@/components/guide/CharAvatar'
 import CharCard from '@/components/guide/CharCard'
-import MonsterPanel from '@/components/guide/MonsterPanel'
+import MonsterCard from '@/components/guide/MonsterCard'
 
 export default {
   name: 'GuidePage',
-  components: { SkillIcon, CharCard, CharAvatar, MonsterPanel },
+  components: { SkillIcon, CharCard, CharAvatar, MonsterCard },
   props: {
     id: String
   },
