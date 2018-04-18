@@ -68,12 +68,15 @@
       </v-card-title>
     </v-card>
     <v-card>
-      <v-card-title primary-title>
-        <div>
-          <h3 class="headline mb-0">Stage 3/3</h3>
-          <div>Stage description, thoughts and strategies</div>
-        </div>
-      </v-card-title>
+      <v-layout row wrap>
+        <v-flex xs4>
+          <monster-panel />
+        </v-flex>
+      </v-layout>
+      <v-text-field
+        multi-line
+        label="Stage Note"
+      ></v-text-field>
     </v-card>
 
     <v-text-field
@@ -143,10 +146,11 @@ import { gold, black, white, advisor, guildAdvisor } from '@/model/characters'
 import SkillIcon from '@/components/guide/SkillIcon'
 import CharAvatar from '@/components/guide/CharAvatar'
 import CharCard from '@/components/guide/CharCard'
+import MonsterPanel from '@/components/guide/MonsterPanel'
 
 export default {
   name: 'GuidePage',
-  components: { SkillIcon, CharCard, CharAvatar },
+  components: { SkillIcon, CharCard, CharAvatar, MonsterPanel },
   props: {
     id: String
   },
