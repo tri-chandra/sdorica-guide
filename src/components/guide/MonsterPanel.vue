@@ -13,8 +13,8 @@
     <v-flex xs6><v-text-field v-model="monster.fullArmor" label="Armor" /></v-flex>
   </v-layout>
   <div v-for="(item, idx) in monster.skills" :key="idx">
-    <v-avatar><img :src="item.code.portrait" /></v-avatar>
-    {{item.note}}
+    <v-avatar :size="24"><img :src="item.code.portrait" /></v-avatar>
+    &nbsp;{{item.note}}
   </div>
 
   <v-select
@@ -22,6 +22,15 @@
     :items="items"
     label="Select a skill..."
   >
+    <template slot="selection" slot-scope="data">
+      <v-avatar :size="24"><img :src="data.item.portrait" /></v-avatar>
+      &nbsp;{{data.item.text}}
+    </template>
+
+    <template slot="item" slot-scope="data">
+      <v-avatar :size="24"><img :src="data.item.portrait" /></v-avatar>
+      &nbsp;{{data.item.text}}
+    </template>
   </v-select>
   <v-text-field
     v-model="skillNote"
@@ -34,14 +43,20 @@
 </template>
 
 <script>
-import { Aura, Onhit, Immunity } from '@/model/SkillType'
+import {
+  Aura, Onhit, Immunity, Ondeath, Onattack,
+  Blockchange, Blockremove, Buff, Debuff,
+  Cure, Onallydeath
+} from '@/model/SkillType'
 
 export default {
   name: 'MonsterPanel',
   data() {
     return {
       items: [
-        Aura, Onhit, Immunity
+        Aura, Onhit, Immunity, Ondeath, Onattack,
+        Blockchange, Blockremove, Buff, Debuff,
+        Cure, Onallydeath
       ],
       monster: {
         name: '',
