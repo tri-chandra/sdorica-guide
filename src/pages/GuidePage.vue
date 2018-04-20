@@ -155,10 +155,10 @@ export default {
       selectedChar: {},
       showCharDetails: false,
       whiteCharList: [Empty, ...white],
-      blackCharList: black,
-      goldCharList: gold,
-      advisorCharList: advisor,
-      guildCharList: guildAdvisor
+      blackCharList: [Empty, ...black],
+      goldCharList: [Empty, ...gold],
+      advisorCharList: [Empty, ...advisor],
+      guildCharList: [Empty, ...guildAdvisor]
     }
   },
   computed: {

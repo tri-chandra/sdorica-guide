@@ -34,9 +34,9 @@ import { yanbo_r, yanbo_sr, yanbo_ssr, yanbo_skin } from './yanbo'
 import BaseCharacter from './base/BaseCharacter'
 import CharStat from './meta/CharStat'
 
-export const Empty = new BaseCharacter('', '', new CharStat(0, 0, white), {
+export const Empty = new BaseCharacter('o', '', new CharStat(0, 0, white), {
   tier: {
-    code: '',
+    code: 'o',
     display: ''
   },
   title: '',
