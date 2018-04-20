@@ -7,7 +7,21 @@ const store = {
 
   state: {
     guides: [],
-    selectedGuide: {},
+    selectedGuide: {
+      team: {
+        gold: {},
+        black: {},
+        white: {},
+        advisor: {},
+        guildAdvisor: {}
+      },
+      stages: [],
+      description: '',
+      id: '',
+      isPublic: false,
+      ownerId: '',
+      title: ''
+    },
     collection: null
   },
 
@@ -53,7 +67,8 @@ const store = {
           white: {},
           advisor: {},
           guildAdvisor: {}
-        }
+        },
+        stages: []
       }
       getters.collection.add(payload).then((docRef) => {
         commit('addNewGuide', payload)

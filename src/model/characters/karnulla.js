@@ -30,7 +30,7 @@ export const karnulla_r = new Karnulla({
   title: 'Crocodile Dummy',
   passive: {
     name: 'Underwater Craft',
-    description: 'Upon incoming damage skill. retaliate with Armor Penetration (:crossed_swords: x 0.56) against selected enemy',
+    description: 'Upon incoming damage skill. retaliate with Armor Penetration (:crossed_swords: x 0.5625) against selected enemy',
   },
   advisor: {
     name: 'Submerge Urge',
@@ -54,7 +54,7 @@ export const karnulla_sr = new Karnulla({
   title: 'Greater Alligator',
   passive: {
     name: 'Underwater Craft',
-    description: 'Upon incoming damage skill. retaliate with Armor Penetration (:crossed_swords: x 0.56) against selected enemy, grant :EXH',
+    description: 'Upon incoming damage skill. retaliate with Armor Penetration (:crossed_swords: x 0.5625) against selected enemy, grant :EXH',
   },
   advisor: {
     name: 'Submerge Urge',
@@ -78,7 +78,7 @@ export const karnulla_ssr = new Karnulla({
   title: 'Apex Predator',
   passive: {
     name: 'Underwater Craft',
-    description: 'Upon incoming damage skill. retaliate with Armor Penetration (:crossed_swords: x 0.56) against selected enemy, grant :EXH',
+    description: 'Upon incoming damage skill. retaliate with Armor Penetration (:crossed_swords: x 0.5625) against selected enemy, grant :EXH',
   },
   advisor: {
     name: 'Submerge Urge',

@@ -1,11 +1,15 @@
 <template>
 <v-card>
+  <v-card-title primary-title>
+    <h3 class="headline mb-0">{{title}}</h3>
+    <v-btn fab small color="pink" @click="$emit('delete')"><v-icon>delete</v-icon></v-btn>
+  </v-card-title>
   <v-layout row wrap>
     <v-flex xs4 v-for="(monster, idx) in stage.monsters" :key="idx">
       <monster-panel v-model="stage.monsters[idx]" />
     </v-flex>
     <v-flex>
-      <v-btn @click="addMonster"><v-icon>add</v-icon></v-btn>
+      <v-btn @click="addMonster">add a Monster</v-btn>
     </v-flex>
   </v-layout>
   <v-text-field
@@ -22,7 +26,7 @@ import MonsterPanel from '@/components/guide/MonsterPanel'
 export default {
   name: 'MonsterCard',
   components: { MonsterPanel },
-  props: ['value'],
+  props: ['value', 'title'],
   data() {
     return {
       stage: {

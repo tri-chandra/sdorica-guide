@@ -59,10 +59,13 @@
         </div>
       </v-card-title>
     </v-card>
-    <v-btn @click="onAddStage">Add</v-btn>
+    <v-btn @click="onAddStage">Add a Stage</v-btn>
     <monster-card
-      v-for="stage in localGuide.stages"
+      v-for="(stage, idx) in localGuide.stages"
       :key="stage.id"
+      :title="`Stage ${idx + 1}/${localGuide.stages.length}`"
+      v-model="localGuide.stages[idx]"
+      @delete="onDelete(idx)"
       class="char-card" />
 
     <v-text-field
@@ -127,7 +130,7 @@
 </template>
 
 <script>
-import { gold, black, white, advisor, guildAdvisor } from '@/model/characters'
+import { Empty, gold, black, white, advisor, guildAdvisor } from '@/model/characters'
 
 import SkillIcon from '@/components/guide/SkillIcon'
 import CharAvatar from '@/components/guide/CharAvatar'
@@ -159,7 +162,7 @@ export default {
       },
       selectedChar: {},
       showCharDetails: false,
-      whiteCharList: white,
+      whiteCharList: [Empty, ...white],
       blackCharList: black,
       goldCharList: gold,
       advisorCharList: advisor,
@@ -173,7 +176,9 @@ export default {
   },
   watch: {
     guide(val) {
-      this.localGuide = val
+      if (val) {
+        this.localGuide = val
+      }
     }
   },
   methods: {
@@ -188,6 +193,9 @@ export default {
     },
     onAddStage() {
       this.localGuide.stages.push({})
+    },
+    onDelete(idx) {
+      this.localGuide.stages.splice(idx, 1)
     }
   },
   mounted() {

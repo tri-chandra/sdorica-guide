@@ -31,6 +31,36 @@ import { tica_n, tica_r, tica_sr, tica_ssr } from './tica'
 import { yamitsuki_r, yamitsuki_sr, yamitsuki_ssr, yamitsuki_skin } from './yamitsuki'
 import { yanbo_r, yanbo_sr, yanbo_ssr, yanbo_skin } from './yanbo'
 
+import BaseCharacter from './base/BaseCharacter'
+import CharStat from './meta/CharStat'
+
+export const Empty = new BaseCharacter('', '', new CharStat(0, 0, white), {
+  tier: {
+    code: '',
+    display: ''
+  },
+  title: '',
+  passive: {
+    name: '',
+    description: '',
+  },
+  advisor: {
+    name: '',
+    description: '',
+  },
+  b1: {
+    name: '',
+    description: '',
+  },
+  b2: {
+    name: '',
+    description: '',
+  },
+  b4: {
+    name: '',
+    description: '',
+  }
+})
 
 export const gold = [
   crushfang_r, crushfang_sr, crushfang_ssr, crushfang_skin,
