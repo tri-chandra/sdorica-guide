@@ -59,15 +59,11 @@
         </div>
       </v-card-title>
     </v-card>
-    <v-card>
-      <v-card-title primary-title>
-        <div>
-          <h3 class="headline mb-0">Stage 2/3</h3>
-          <div>Stage description, thoughts and strategies</div>
-        </div>
-      </v-card-title>
-    </v-card>
-    <monster-card class="char-card" />
+    <v-btn @click="onAddStage">Add</v-btn>
+    <monster-card
+      v-for="stage in localGuide.stages"
+      :key="stage.id"
+      class="char-card" />
 
     <v-text-field
       v-model="localGuide.closingNote"
@@ -148,8 +144,18 @@ export default {
     return {
       localGuide: {
         team: {
-
-        }
+          gold: {},
+          black: {},
+          white: {},
+          advisor: {},
+          guildAdvisor: {}
+        },
+        stages: [],
+        description: '',
+        id: '',
+        isPublic: false,
+        ownerId: '',
+        title: ''
       },
       selectedChar: {},
       showCharDetails: false,
@@ -179,6 +185,9 @@ export default {
     },
     saveGuide() {
       this.$store.dispatch('saveGuide', this.localGuide)
+    },
+    onAddStage() {
+      this.localGuide.stages.push({})
     }
   },
   mounted() {
