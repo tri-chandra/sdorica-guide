@@ -49,7 +49,7 @@ export const Cure = {
   code: 'Cure'
 };
 export const Onallydeath = {
-  portrait: './static/ui/friends_death.png',
+  portrait: './static/ui/friends_dead.png',
   text: 'On Ally Death',
   code: 'Onallydeath'
 };

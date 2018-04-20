@@ -51,14 +51,6 @@
       v-model="localGuide.team.guildAdvisor"
     />
 
-    <v-card>
-      <v-card-title primary-title>
-        <div>
-          <h3 class="headline mb-0">Stage 1/3</h3>
-          <div>Stage description, thoughts and strategies</div>
-        </div>
-      </v-card-title>
-    </v-card>
     <v-btn @click="onAddStage">Add a Stage</v-btn>
     <monster-card
       v-for="(stage, idx) in localGuide.stages"
@@ -192,7 +184,10 @@ export default {
       this.$store.dispatch('saveGuide', this.localGuide)
     },
     onAddStage() {
-      this.localGuide.stages.push({})
+      this.localGuide.stages.push({
+        monsters: [],
+        note: ''
+      })
     },
     onDelete(idx) {
       this.localGuide.stages.splice(idx, 1)
