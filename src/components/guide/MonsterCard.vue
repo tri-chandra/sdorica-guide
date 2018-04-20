@@ -32,7 +32,17 @@ export default {
   },
   methods: {
     addMonster() {
-      this.stage.monsters.push({})
+      this.stage.monsters.push({
+        name: '',
+        portrait: '',
+        fullHp: 0,
+        hp: 0,
+        fullArmor: 0,
+        armor: 0,
+        skills: [
+
+        ]
+      })
     }
   }
 }

@@ -51,6 +51,7 @@ import {
 
 export default {
   name: 'MonsterPanel',
+  props: ['value'],
   data() {
     return {
       items: [
@@ -73,12 +74,25 @@ export default {
       selectedSkill: ''
     }
   },
+  watch: {
+    value(val) {
+      this.monster = val
+    },
+    monster(val) {
+      this.$emit('input', val)
+    }
+  },
   methods: {
     addSkill() {
       this.monster.skills.push({
         code: this.selectedSkill,
         note: this.skillNote
       })
+    }
+  },
+  mounted() {
+    if (this.value) {
+      this.monster = this.value
     }
   }
 }

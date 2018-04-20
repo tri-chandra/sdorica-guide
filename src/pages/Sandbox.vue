@@ -1,6 +1,6 @@
 <template>
 <div>
-  <monster-card />
+  <monster-card v-model="model" />
 </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   components: { MonsterCard },
   data() {
     return {
-
+      model: {}
     }
   },
   methods: {
