@@ -116,6 +116,7 @@ export const guildAdvisor = [
 
 
 export default {
+  Empty,
   white,
   black,
   gold,
