@@ -22,12 +22,21 @@ import MonsterPanel from '@/components/guide/MonsterPanel'
 export default {
   name: 'MonsterCard',
   components: { MonsterPanel },
+  props: ['value'],
   data() {
     return {
       stage: {
         monsters: [],
         note: ''
       }
+    }
+  },
+  watch: {
+    value(val) {
+      this.stage = val
+    },
+    stage(val) {
+      this.$emit('input', val)
     }
   },
   methods: {
@@ -43,6 +52,11 @@ export default {
 
         ]
       })
+    }
+  },
+  mounted() {
+    if (this.value) {
+      this.stage = this.value
     }
   }
 }

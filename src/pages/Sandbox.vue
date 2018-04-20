@@ -11,7 +11,10 @@ export default {
   components: { MonsterCard },
   data() {
     return {
-      model: {}
+      model: {
+        monsters: [],
+        note: ''
+      }
     }
   },
   methods: {
