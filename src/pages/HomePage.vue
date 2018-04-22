@@ -1,5 +1,6 @@
 <template>
   <v-container grid-list-md>
+    <h1>My Guides</h1>
     <v-alert
       v-if="$root.isLoggedIn && guideList.length<=0"
       type="info"
@@ -8,6 +9,13 @@
       <v-avatar class="teal" :size="22"><v-icon dark>add</v-icon></v-avatar>
       button?
     </v-alert>
+    <v-alert
+      v-if="!$root.isLoggedIn"
+      type="info"
+      :value="hasNoGuide">
+      You need to login to see your guides.
+    </v-alert>
+
     <v-btn
       v-if="$root.isLoggedIn"
       fab
@@ -35,6 +43,7 @@ import AddGuideCard from '@/components/main/AddGuideCard'
 import GuideItem from '@/components/main/GuideListItem'
 
 export default {
+  name: 'HomePage',
   components: { AddGuideCard, GuideItem },
   data() {
     return {

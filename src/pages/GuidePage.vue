@@ -1,5 +1,6 @@
 <template>
   <v-container grid-list-md>
+    <v-btn :to="`/preview/${id}`">Preview</v-btn>
     <v-form>
       <v-text-field
           v-model="localGuide.title"

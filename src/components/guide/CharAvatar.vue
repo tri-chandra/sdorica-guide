@@ -10,19 +10,16 @@ export default {
   props: {
     value: {
       type: [Object, String],
-      default: {
-        name: '',
-        portrait: ''
+      default() {
+        return {
+          name: '',
+          portrait: '/static/avatar/figure_none.png'
+        }
       }
     },
     size: {
       type: Number,
       default: 84
-    }
-  },
-  watch: {
-    value(val) {
-
     }
   }
 }
