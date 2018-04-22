@@ -55,7 +55,7 @@
         <v-icon>menu</v-icon>
       </v-btn> -->
     </v-toolbar>
-    <v-content>
+    <v-content class="content">
       <router-view/>
     </v-content>
     <!-- <v-navigation-drawer
@@ -116,3 +116,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.content {
+  margin-left: 8px;
+}
+</style>

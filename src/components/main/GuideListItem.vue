@@ -1,5 +1,5 @@
 <template>
-  <v-list-tile @click.stop="$emit('click')">
+  <v-list-tile @click.stop="$emit('click')" class="item">
     <v-list-tile-content>
       <v-list-tile-title>
         {{value.title}}
@@ -17,7 +17,7 @@
         </v-avatar>
         <v-avatar :size="24">
           <img :src="guildPortrait" />
-        </v-avatar>
+        </v-avatar> - {{value.turns}} Turns
       </v-list-tile-title>
       <v-list-tile-sub-title>
         {{value.description}}
@@ -58,3 +58,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.item {
+  margin-bottom: 10px;
+}
+</style>

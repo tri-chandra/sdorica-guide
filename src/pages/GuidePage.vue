@@ -14,6 +14,9 @@
         color="success"
         v-model="localGuide.isPublic"
       ></v-switch>
+      <v-text-field
+        v-model="localGuide.turns"
+        label="No. of turns"></v-text-field>
     </v-form>
 
     <char-card
@@ -151,7 +154,8 @@ export default {
         id: '',
         isPublic: false,
         ownerId: '',
-        title: ''
+        title: '',
+        turns: 0
       },
       selectedChar: {},
       showCharDetails: false,
