@@ -1,23 +1,29 @@
 <template>
 <div>
   <v-list>
-    <v-list-group
-      v-model="isExpanded"
+    <template
       v-for="item in wt"
-      :key="item.day"
-      no-action
     >
-      <v-list-tile slot="activator">
-        <v-list-tile-content>
-          <v-list-tile-title>{{ item.day }}</v-list-tile-title>
-        </v-list-tile-content>
-      </v-list-tile>
-      <v-list-tile v-for="subItem in item.trials" :key="subItem.title" @click="gotoGuide(subItem.title)">
-        <v-list-tile-content>
-          <v-list-tile-title>{{ subItem.title }}</v-list-tile-title>
-        </v-list-tile-content>
-      </v-list-tile>
-    </v-list-group>
+      <v-divider :key="item.day+'d'"></v-divider>
+      <v-subheader :key="item.day">{{ item.day }}</v-subheader>
+      <v-list-group
+        v-for="subItem in item.trials"
+        :key="subItem.title"
+        no-action>
+        <v-list-tile
+          :key="`a${subItem.title}`"
+          slot="activator"
+          >
+          <v-list-tile-content>
+            {{ subItem.title }}
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile
+          :key="`i${subItem.title}`">
+          TEMP
+        </v-list-tile>
+      </v-list-group>
+    </template>
   </v-list>
 </div>
 </template>
