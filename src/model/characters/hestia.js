@@ -14,11 +14,11 @@ export const hestia_n = new Hestia({
   },
   b1: {
     name: 'Etude Chords',
-    description: 'Heal (:crossed_swords: x 1.08) selected ally, grant :REGEN.',
+    description: 'Heal (:crossed_swords: x 0.45) selected ally, grant :REGEN.',
   },
   b2: {
     name: 'Serenade Chords',
-    description: 'Heal (:crossed_swords: x 1.26) selected ally',
+    description: 'Heal (:crossed_swords: x 1.35) selected ally',
   },
   b4: {
     name: 'Variation Chords',
@@ -38,11 +38,11 @@ export const hestia_r = new Hestia({
   },
   b1: {
     name: 'Etude Chords',
-    description: 'Heal (:crossed_swords: x 1.08) selected ally, grant :REGEN.',
+    description: 'Heal (:crossed_swords: x 0.45) selected ally, grant :REGEN.',
   },
   b2: {
     name: 'Serenade Chords',
-    description: 'Heal (:crossed_swords: x 1.26) selected ally, remove debuffs.',
+    description: 'Heal (:crossed_swords: x 1.35) selected ally, remove debuffs.',
   },
   b4: {
     name: 'Variation Chords',
@@ -62,11 +62,11 @@ export const hestia_sr = new Hestia({
   },
   b1: {
     name: 'Etude Chords',
-    description: 'Heal (:crossed_swords: x 1.08) selected ally, grant :REGEN for 2 turns.',
+    description: 'Heal (:crossed_swords: x 0.45) selected ally, grant :REGEN for 2 turns.',
   },
   b2: {
     name: 'Serenade Chords',
-    description: 'Heal (:crossed_swords: x 1.26) selected ally, remove debuffs.',
+    description: 'Heal (:crossed_swords: x 1.35) selected ally, remove debuffs.',
   },
   b4: {
     name: 'Variation Chords',
@@ -86,11 +86,11 @@ export const hestia_ssr = new Hestia({
   },
   b1: {
     name: 'Etude Chords',
-    description: 'Heal (:crossed_swords: x 1.08) selected ally, grant :REGEN for 2 turns.',
+    description: 'Heal (:crossed_swords: x 0.45) selected ally, grant :REGEN for 2 turns.',
   },
   b2: {
     name: 'Serenade Chords',
-    description: 'Heal (:crossed_swords: x 1.26) selected ally, remove debuffs.',
+    description: 'Heal (:crossed_swords: x 1.35) selected ally, remove debuffs.',
   },
   b4: {
     name: 'Variation Chords',
